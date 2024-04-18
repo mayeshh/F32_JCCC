@@ -2,6 +2,8 @@
 
 F32 style grant application based on [aarmey/grant-template](https://github.com/aarmey/grant-template).
 
+Do not use reuse any of the writing, as this is a real grant to be submitted. 
+
 ---
 # A template for NIH style grants in Latex
 
