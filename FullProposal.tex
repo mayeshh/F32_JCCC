@@ -1,10 +1,11 @@
 \documentclass{grantplate}
 
+% bibliography resource
+\addbibresource{bib.bib}
+
 \usepackage{lipsum}
 
 \makeglossaries
-
-\addbibresource{Library.bib}
 
 \input{Acronyms}
 
@@ -16,10 +17,11 @@
 \input{SpecificAims}
 \cleardoublepage
 
+\section{Research Strategy}
 \input{Significance}
 \input{Innovation}
 
-\section{Approach}
+\subsection{Approach}
 
 \input{Aim1}
 \input{Aim2}
@@ -31,7 +33,9 @@
 \section*{Glossary}
 \printglossaries
 
+
 \clearpage
-\printbibliography
+
+\printbibliography[heading=bibintoc] % Prints bibliography with heading in ToC
 
 \end{document}

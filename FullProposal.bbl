@@ -1,0 +1,214 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{molina_nonsmall_2008}{article}{}
+      \name{author}{5}{}{%
+        {{hash=b3c62c523ffa15e519173ec48ceb4730}{%
+           family={Molina},
+           familyi={M\bibinitperiod},
+           given={Julian\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=dd256baea43b4307ecfed699217adfab}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Ping},
+           giveni={P\bibinitperiod}}}%
+        {{hash=96556d97c507f08b92536ba34f621967}{%
+           family={Cassivi},
+           familyi={C\bibinitperiod},
+           given={Stephen\bibnamedelima D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=a1c784aaa35b9b97cd41d2c1e2f89a94}{%
+           family={Schild},
+           familyi={S\bibinitperiod},
+           given={Steven\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=64106db49e010328bea9e036383c1c88}{%
+           family={Adjei},
+           familyi={A\bibinitperiod},
+           given={Alex\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{17aa17c0a8526d25e83c3a93f405dbb8}
+      \strng{fullhash}{d9e5299d57e39d33731f04d21074484b}
+      \strng{bibnamehash}{d9e5299d57e39d33731f04d21074484b}
+      \strng{authorbibnamehash}{d9e5299d57e39d33731f04d21074484b}
+      \strng{authornamehash}{17aa17c0a8526d25e83c3a93f405dbb8}
+      \strng{authorfullhash}{d9e5299d57e39d33731f04d21074484b}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0025-6196}
+      \field{journaltitle}{Mayo Clinic proceedings. Mayo Clinic}
+      \field{month}{5}
+      \field{note}{\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2718421/}}
+      \field{number}{5}
+      \field{shorttitle}{Non--{{Small Cell Lung Cancer}}}
+      \field{title}{Non--{{Small Cell Lung Cancer}}: {{Epidemiology}}, {{Risk Factors}}, {{Treatment}}, and {{Survivorship}}}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{83}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{584\bibrangedash 594}
+      \range{pages}{11}
+    \endentry
+    \entry{puett_particulate_2014}{article}{}
+      \name{author}{8}{}{%
+        {{hash=e30a3b3869458e3b552c315248384805}{%
+           family={Puett},
+           familyi={P\bibinitperiod},
+           given={Robin\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=b7583a9151f7b180d369daf2dc8469ed}{%
+           family={Hart},
+           familyi={H\bibinitperiod},
+           given={Jaime\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=deca97e8017083a193b804bfd6b64a7f}{%
+           family={Yanosky},
+           familyi={Y\bibinitperiod},
+           given={Jeff\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c52608b032c21966fba3fa7400bdc6b6}{%
+           family={Spiegelman},
+           familyi={S\bibinitperiod},
+           given={Donna},
+           giveni={D\bibinitperiod}}}%
+        {{hash=71b425adf8bd20c136b837f83d6ef584}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Molin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9771317e44e569d57e6b370f4e6683f9}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Jared\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8eb3a98bfb670d5f7459a7da137598fe}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Biling},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e7eb41b63d608afec38c0afbfb0a4bb7}{%
+           family={Laden},
+           familyi={L\bibinitperiod},
+           given={Francine},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{33d8949acd81e2cdcfa826095652d952}
+      \strng{fullhash}{bf6b6266a04f015896d6f7f0b110f996}
+      \strng{bibnamehash}{bf6b6266a04f015896d6f7f0b110f996}
+      \strng{authorbibnamehash}{bf6b6266a04f015896d6f7f0b110f996}
+      \strng{authornamehash}{33d8949acd81e2cdcfa826095652d952}
+      \strng{authorfullhash}{bf6b6266a04f015896d6f7f0b110f996}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1552-9924}
+      \field{journaltitle}{Environmental Health Perspectives}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{Particulate Matter Air Pollution Exposure, Distance to Road, and Incident Lung Cancer in the Nurses' Health Study Cohort}
+      \field{volume}{122}
+      \field{year}{2014}
+      \field{pages}{926\bibrangedash 932}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1289/ehp.1307490
+      \endverb
+    \endentry
+    \entry{huang_ambient_2021}{article}{}
+      \name{author}{7}{}{%
+        {{hash=bec44e297d2961504de6076f77613673}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Hung-Ling},
+           giveni={H\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=c19d76a2070e83e22a0d7b0f800ab2ea}{%
+           family={Chuang},
+           familyi={C\bibinitperiod},
+           given={Yung-Hsin},
+           giveni={Y\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=8d1df8f35b10d2afc0c79100615dd557}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Tzu-Hsuan},
+           giveni={T\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=08f4c1117b534a27fddad79d5efe6eb7}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Changqing},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d44802eda645d0475b50ad2fe7578eed}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yen-Hsu},
+           giveni={Y\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=1be8523496219b198f0d10d5958ebed8}{%
+           family={Hung},
+           familyi={H\bibinitperiod},
+           given={Jen-Yu},
+           giveni={J\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=4eb1404a4954565d86573640e448c263}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Ta-Chien},
+           giveni={T\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc50f16f759a81d9aad9e1958b9e8eee}
+      \strng{fullhash}{ff7a26984f8aff165ed9016af7c2e31c}
+      \strng{bibnamehash}{ff7a26984f8aff165ed9016af7c2e31c}
+      \strng{authorbibnamehash}{ff7a26984f8aff165ed9016af7c2e31c}
+      \strng{authornamehash}{fc50f16f759a81d9aad9e1958b9e8eee}
+      \strng{authorfullhash}{ff7a26984f8aff165ed9016af7c2e31c}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1661-7827}
+      \field{journaltitle}{International Journal of Environmental Research and Public Health}
+      \field{month}{11}
+      \field{number}{23}
+      \field{shorttitle}{Ambient {{Cumulative PM2}}.5 {{Exposure}} and the {{Risk}} of {{Lung Cancer Incidence}} and {{Mortality}}}
+      \field{title}{Ambient {{Cumulative PM2}}.5 {{Exposure}} and the {{Risk}} of {{Lung Cancer Incidence}} and {{Mortality}}: {{A Retrospective Cohort Study}}}
+      \field{urlday}{23}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{18}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{12400}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/ijerph182312400
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{Meyer:CellSys}
+  \missing{x}
+\endrefsection
+\endinput
+

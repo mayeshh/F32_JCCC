@@ -28,6 +28,7 @@
 \renewcommand\familydefault{\sfdefault} 
 
 % Basic bibliography settings
+
 \RequirePackage[backend=biber,url=false,sortcites=true,sorting=none,style=numeric-comp,maxbibnames=99]{biblatex}
 \setlength\bibitemsep{0pt}
 
