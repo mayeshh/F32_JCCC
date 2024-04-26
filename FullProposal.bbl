@@ -73,6 +73,227 @@
       \field{pages}{584\bibrangedash 594}
       \range{pages}{11}
     \endentry
+    \entry{berg_air_2023}{article}{}
+      \name{author}{14}{}{%
+        {{hash=431fb6773118415d3aaaf67d8f1a78d0}{%
+           family={Berg},
+           familyi={B\bibinitperiod},
+           given={Christine\bibnamedelima D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=e1adcc0d72f9c13c4655ff6cdfa2fedc}{%
+           family={Schiller},
+           familyi={S\bibinitperiod},
+           given={Joan\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=d340666360152d07d337b33071685ba3}{%
+           family={Boffetta},
+           familyi={B\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=45295000fa65abd3d041c054376e60d9}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=88a05e4864f290004223f586e298a38c}{%
+           family={Connolly},
+           familyi={C\bibinitperiod},
+           given={Casey},
+           giveni={C\bibinitperiod}}}%
+        {{hash=81aa73ffe05a48e5a047ead4ce037c7e}{%
+           family={{Kerpel-Fronius}},
+           familyi={K\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f8727ca422cb174b9df878e4f182405d}{%
+           family={Kitts},
+           familyi={K\bibinitperiod},
+           given={Andrea\bibnamedelima Borondy},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=29aca4e6ebb80b54b5392c209532a5f8}{%
+           family={Lam},
+           familyi={L\bibinitperiod},
+           given={David\bibnamedelima C.L.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=ae623937cad8fb68d6e00fb7cc85cf25}{%
+           family={Mohan},
+           familyi={M\bibinitperiod},
+           given={Anant},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0246ce787abf47e6b8cfd9d0f36f7571}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Renelle},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e092a138532edf344fb7deeef5df68a6}{%
+           family={Suri},
+           familyi={S\bibinitperiod},
+           given={Tejas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=bff952b1142272f5c48eb28462a1a7fa}{%
+           family={Tammemagi},
+           familyi={T\bibinitperiod},
+           given={Martin\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=045ad1062024c32122b6e3207ef62a61}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Dawei},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4395495eec51e7351057987a5913bb73}{%
+           family={Lam},
+           familyi={L\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{df96d171197429dcf804650879504ab1}
+      \strng{fullhash}{9727f3a8551fd844f1c2ba80e604abce}
+      \strng{bibnamehash}{9727f3a8551fd844f1c2ba80e604abce}
+      \strng{authorbibnamehash}{9727f3a8551fd844f1c2ba80e604abce}
+      \strng{authornamehash}{df96d171197429dcf804650879504ab1}
+      \strng{authorfullhash}{9727f3a8551fd844f1c2ba80e604abce}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{15560864}
+      \field{journaltitle}{Journal of Thoracic Oncology}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{10}
+      \field{shorttitle}{Air {{Pollution}} and {{Lung Cancer}}}
+      \field{title}{Air {{Pollution}} and {{Lung Cancer}}: {{A Review}} by {{International Association}} for the {{Study}} of {{Lung Cancer Early Detection}} and {{Screening Committee}}}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{18}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{1277\bibrangedash 1289}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.jtho.2023.05.024
+      \endverb
+    \endentry
+    \entry{huang_air_2021}{article}{}
+      \name{author}{17}{}{%
+        {{hash=a545c78d0ec133c2d61945a29090291a}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yanqian},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b97635f32f7cf16854edc2b1e776440c}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Meng},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a2e51025232361f864497539eb2dbf69}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={Mengmeng},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c75e466fbb1482986f0feb93b5a8765e}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Jingyi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4948f5713c250c623cf2e26ba674c203}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Junxing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=73dd51ad48759aa8ce1adf51be5dff02}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Xiaoxia},
+           giveni={X\bibinitperiod}}}%
+        {{hash=927f1837ea9e23fcb85ba3475fd95218}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Xiangxiang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=107cdbc1053b5baff69de9dcfdbc5c0e}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ddc1e4faf59edc7d7675723be4296244}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod}}}%
+        {{hash=672067704ef03526648157f7ea3c2a72}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Rong},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b2410a1e20b53244562ca99f4aaf3da3}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yuzhuo},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5d3e22a1758c0085b8c75443b5c90ba9}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Juncheng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=faa701f7038f6fb2263786d946053a49}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Guangfu},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2c732482fe35d9189bac744943d239a5}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1a719589ec6d3edc387b3ed317183931}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Zhibin},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=04ce90793d78b096e08e000236f0e0c0}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Hongxia},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1a5afad4d6f0f15d4386aac7be94e245}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Hongbing},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Thoracic Society - AJRCCM}%
+      }
+      \strng{namehash}{00381d207c98f5c9d5dd7fc2d2503f28}
+      \strng{fullhash}{ee3b864b2d105803d769653e7b6de0c8}
+      \strng{bibnamehash}{ee3b864b2d105803d769653e7b6de0c8}
+      \strng{authorbibnamehash}{ee3b864b2d105803d769653e7b6de0c8}
+      \strng{authornamehash}{00381d207c98f5c9d5dd7fc2d2503f28}
+      \strng{authorfullhash}{ee3b864b2d105803d769653e7b6de0c8}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1073-449X}
+      \field{journaltitle}{American Journal of Respiratory and Critical Care Medicine}
+      \field{month}{10}
+      \field{number}{7}
+      \field{shorttitle}{Air {{Pollution}}, {{Genetic Factors}}, and the {{Risk}} of {{Lung Cancer}}}
+      \field{title}{Air {{Pollution}}, {{Genetic Factors}}, and the {{Risk}} of {{Lung Cancer}}: {{A Prospective Study}} in the {{UK Biobank}}}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{204}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{817\bibrangedash 825}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1164/rccm.202011-4063OC
+      \endverb
+    \endentry
     \entry{puett_particulate_2014}{article}{}
       \name{author}{8}{}{%
         {{hash=e30a3b3869458e3b552c315248384805}{%
@@ -206,9 +427,705 @@
       \verb 10.3390/ijerph182312400
       \endverb
     \endentry
+    \entry{marcinkiewicz_impact_2023}{article}{}
+      \name{author}{6}{}{%
+        {{hash=d1bc7fa697ec3a25d1c4ca383f8b908c}{%
+           family={Marcinkiewicz},
+           familyi={M\bibinitperiod},
+           given={Anita},
+           giveni={A\bibinitperiod}}}%
+        {{hash=36460d298966ec44730296803c104f21}{%
+           family={Ochotnicka},
+           familyi={O\bibinitperiod},
+           given={Aleksandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9dd53396838e16c177dade8a90943c05}{%
+           family={{Borowska-Waniak}},
+           familyi={B\bibinitperiod},
+           given={Karolina},
+           giveni={K\bibinitperiod}}}%
+        {{hash=7849b1a7b69dec67d28853b9d40dde67}{%
+           family={Skorupi{ń}ska},
+           familyi={S\bibinitperiod},
+           given={Kinga},
+           giveni={K\bibinitperiod}}}%
+        {{hash=67b1aa3c9b77cff66133209cf8701cba}{%
+           family={Michalik},
+           familyi={M\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+        {{hash=337176070a1c97413a2b52328167be35}{%
+           family={Borowska},
+           familyi={B\bibinitperiod},
+           given={Maja},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4375b3e8a4261b1519c6e3d0f85c8a80}
+      \strng{fullhash}{9a98e254e6b71af437515a2a714d8a46}
+      \strng{bibnamehash}{9a98e254e6b71af437515a2a714d8a46}
+      \strng{authorbibnamehash}{9a98e254e6b71af437515a2a714d8a46}
+      \strng{authornamehash}{4375b3e8a4261b1519c6e3d0f85c8a80}
+      \strng{authorfullhash}{9a98e254e6b71af437515a2a714d8a46}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{2199885X}
+      \field{journaltitle}{Archiv Euromedica}
+      \field{month}{10}
+      \field{number}{5}
+      \field{shorttitle}{{{THE IMPACT OF AIR POLLUTION ON THE OCCURRENCE OF LUNG CANCER}}}
+      \field{title}{{{THE IMPACT OF AIR POLLUTION ON THE OCCURRENCE OF LUNG CANCER}}: {{A LITERATURE REVIEW}}}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{13}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.35630/2023/13/5.507
+      \endverb
+    \endentry
+    \entry{belony_abstract_2022}{article}{}
+      \name{author}{8}{}{%
+        {{hash=7efaedafc57e5bbc6d4e511de40beb5c}{%
+           family={Belony},
+           familyi={B\bibinitperiod},
+           given={Nadine},
+           giveni={N\bibinitperiod}}}%
+        {{hash=982ffa903084329b0fdeb77720b496eb}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod}}}%
+        {{hash=db747a003ca7b1763c453603793f665a}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Phuc},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4c3265ebba44ea39b8bbfc5ecd0fa1ef}{%
+           family={Gregory},
+           familyi={G\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dfd24708582170f6b062b6132b09e47a}{%
+           family={Puente},
+           familyi={P\bibinitperiod},
+           given={Pablo\bibnamedelima E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=bfa218c7f946dcc8f50eeec780d1b743}{%
+           family={Lamango},
+           familyi={L\bibinitperiod},
+           given={Nazarius\bibnamedelima S.},
+           giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=ed8d7a1a353d431fedc8b82571e4b456}{%
+           family={Offringa},
+           familyi={O\bibinitperiod},
+           given={Ite\bibnamedelima A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=3b4cb06c8918f6e34087f2328f82ce61}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{1242b98dba5817c0a238a4951224d627}
+      \strng{fullhash}{488685bb220cb6530ead86a689955cd1}
+      \strng{bibnamehash}{488685bb220cb6530ead86a689955cd1}
+      \strng{authorbibnamehash}{488685bb220cb6530ead86a689955cd1}
+      \strng{authornamehash}{1242b98dba5817c0a238a4951224d627}
+      \strng{authorfullhash}{488685bb220cb6530ead86a689955cd1}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0008-5472}
+      \field{journaltitle}{Cancer Research}
+      \field{month}{6}
+      \field{number}{12\_Supplement}
+      \field{shorttitle}{Abstract 4038}
+      \field{title}{Abstract 4038: {{Study}} of Therapeutic Effects of Polyisoprenylated Cysteinyl Amide Inhibitors on Lung Cancer Cells of Black Patients Using {{3D-Printed}} Alveolar Model}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{82}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{4038}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1158/1538-7445.AM2022-4038
+      \endverb
+    \endentry
+    \entry{thaiparambil_abstract_2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4fb144373d94560b7d98501eaffb3171}{%
+           family={Thaiparambil},
+           familyi={T\bibinitperiod},
+           given={Jose\bibnamedelima Thomas},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=45437b8fc0edec6c1a1c360649da95e8}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=8fa7dcfd6da821d56aa3b9f86aa0b28e}{%
+           family={{El-Zein}},
+           familyi={E\bibinitperiod},
+           given={Randa},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{247eb2f176c9e10cb8ae90d2c0f8c6c7}
+      \strng{fullhash}{247eb2f176c9e10cb8ae90d2c0f8c6c7}
+      \strng{bibnamehash}{247eb2f176c9e10cb8ae90d2c0f8c6c7}
+      \strng{authorbibnamehash}{247eb2f176c9e10cb8ae90d2c0f8c6c7}
+      \strng{authornamehash}{247eb2f176c9e10cb8ae90d2c0f8c6c7}
+      \strng{authorfullhash}{247eb2f176c9e10cb8ae90d2c0f8c6c7}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0008-5472}
+      \field{journaltitle}{Cancer Research}
+      \field{month}{4}
+      \field{number}{7\_Supplement}
+      \field{shorttitle}{Abstract 1948}
+      \field{title}{Abstract 1948: {{Novel}} Insights into Lung Cancer \& Chronic Obstructive Pulmonary Disease Racial Disparities}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{83}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{1948}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1158/1538-7445.AM2023-1948
+      \endverb
+    \endentry
+    \entry{valencia_interrogating_2022}{article}{}
+      \name{author}{4}{}{%
+        {{hash=02d9b7d19b5e130a44756ec2ef5fa4fa}{%
+           family={Valencia},
+           familyi={V\bibinitperiod},
+           given={Celina\bibnamedelima I.},
+           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=b7c46bf0482fe4120658d72e7af2b738}{%
+           family={Gachupin},
+           familyi={G\bibinitperiod},
+           given={Francine\bibnamedelima C.},
+           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=e477fa698049d48e441ecc36e29f94be}{%
+           family={Molina},
+           familyi={M\bibinitperiod},
+           given={Yamil{é}},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=aca9a6adb88e5cdcdfa8fc6c81c4a933}{%
+           family={Batai},
+           familyi={B\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{13ddbf3a57362b0afab3052a50fb11d0}
+      \strng{fullhash}{11a5cd07cb29d31f878d38647fd97112}
+      \strng{bibnamehash}{11a5cd07cb29d31f878d38647fd97112}
+      \strng{authorbibnamehash}{11a5cd07cb29d31f878d38647fd97112}
+      \strng{authornamehash}{13ddbf3a57362b0afab3052a50fb11d0}
+      \strng{authorfullhash}{11a5cd07cb29d31f878d38647fd97112}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1661-7827}
+      \field{journaltitle}{International Journal of Environmental Research and Public Health}
+      \field{month}{2}
+      \field{number}{4}
+      \field{title}{Interrogating {{Patterns}} of {{Cancer Disparities}} by {{Expanding}} the {{Social Determinants}} of {{Health Framework}} to {{Include Biological Pathways}} of {{Social Experiences}}}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{19}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{2455}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/ijerph19042455
+      \endverb
+    \endentry
+    \entry{hede_drilling_2010}{article}{}
+      \name{author}{1}{}{%
+        {{hash=93ac20e3073f4c9572d55407983e1110}{%
+           family={Hede},
+           familyi={H\bibinitperiod},
+           given={Karyn},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{93ac20e3073f4c9572d55407983e1110}
+      \strng{fullhash}{93ac20e3073f4c9572d55407983e1110}
+      \strng{bibnamehash}{93ac20e3073f4c9572d55407983e1110}
+      \strng{authorbibnamehash}{93ac20e3073f4c9572d55407983e1110}
+      \strng{authornamehash}{93ac20e3073f4c9572d55407983e1110}
+      \strng{authorfullhash}{93ac20e3073f4c9572d55407983e1110}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0027-8874}
+      \field{journaltitle}{JNCI: Journal of the National Cancer Institute}
+      \field{month}{9}
+      \field{number}{18}
+      \field{title}{Drilling {{Down}} to the {{Causes}} of {{Racial Disparities}} in {{Lung Cancer}}}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{102}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{1385\bibrangedash 1387}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1093/jnci/djq371
+      \endverb
+    \endentry
+    \entry{landy_absolute_2024}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6fc457a52c684b0e9589a0c3b7b23ee6}{%
+           family={Landy},
+           familyi={L\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod}}}%
+        {{hash=39a678f14c799cb4de3da927394092f3}{%
+           family={Cheung},
+           familyi={C\bibinitperiod},
+           given={Li\bibnamedelima C.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=0b5320afa2499c5428eca7f914cb3174}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Corey\bibnamedelima D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=fa14b7c3ce2042414bc15bc1f3b3cee0}{%
+           family={Chaturvedi},
+           familyi={C\bibinitperiod},
+           given={Anil\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=30bbc0f4974632467c83f11f4ada5a38}{%
+           family={Katki},
+           familyi={K\bibinitperiod},
+           given={Hormuzd\bibnamedelima A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{37f4b7455e6652042e54d70e07e90c32}
+      \strng{fullhash}{773f03651d60c53a57cac63a1ae1c7ee}
+      \strng{bibnamehash}{773f03651d60c53a57cac63a1ae1c7ee}
+      \strng{authorbibnamehash}{773f03651d60c53a57cac63a1ae1c7ee}
+      \strng{authornamehash}{37f4b7455e6652042e54d70e07e90c32}
+      \strng{authorfullhash}{773f03651d60c53a57cac63a1ae1c7ee}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0008-543X}
+      \field{journaltitle}{Cancer}
+      \field{month}{1}
+      \field{number}{2}
+      \field{shorttitle}{Absolute Lung Cancer Risk Increases among Individuals with {$>$}15 Quit-Years}
+      \field{title}{Absolute Lung Cancer Risk Increases among Individuals with {$>$}15 Quit-Years: {{Analyses}} to Inform the Update of the {{American Cancer Society}} Lung Cancer Screening Guidelines}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{130}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{201\bibrangedash 215}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1002/cncr.34758
+      \endverb
+    \endentry
+    \entry{meza_evaluation_2021}{article}{}
+      \name{author}{13}{}{%
+        {{hash=2a38f2749f0b609e4ac7a8dbb1cc3d5e}{%
+           family={Meza},
+           familyi={M\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3dedd4fd892083ec5333ef7a73dd8c80}{%
+           family={Jeon},
+           familyi={J\bibinitperiod},
+           given={Jihyoun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=625b7c48bee64952b661fff3420f6c05}{%
+           family={Toumazis},
+           familyi={T\bibinitperiod},
+           given={Iakovos},
+           giveni={I\bibinitperiod}}}%
+        {{hash=494cb40092f32b9a384de868acee0fa3}{%
+           family={Ten\bibnamedelima Haaf},
+           familyi={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a7c813aa5423338d76f4e29105985d84}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Pianpian},
+           giveni={P\bibinitperiod}}}%
+        {{hash=46cbeeea79316342b094c7e6ec8cd37c}{%
+           family={Bastani},
+           familyi={B\bibinitperiod},
+           given={Mehrad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=33f82d2f29e35b538916a21995db402b}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Summer\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=fe53086f310e841495bd133a52936b4f}{%
+           family={Blom},
+           familyi={B\bibinitperiod},
+           given={Erik\bibnamedelima F.},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=3f0cff2af8cafa2dbd9e24e3702b9f3f}{%
+           family={Jonas},
+           familyi={J\bibinitperiod},
+           given={Daniel\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=67775d888c3e01634fb06139b56f6023}{%
+           family={Feuer},
+           familyi={F\bibinitperiod},
+           given={Eric\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d6abb773be91c335ddd40b45d29427f0}{%
+           family={Plevritis},
+           familyi={P\bibinitperiod},
+           given={Sylvia\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=fe7698b69b855938473ce975039bede7}{%
+           family={{de Koning}},
+           familyi={d\bibinitperiod},
+           given={Harry\bibnamedelima J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8fc1c0b5e7a39cc29da470884c1e5513}{%
+           family={Kong},
+           familyi={K\bibinitperiod},
+           given={Chung\bibnamedelima Yin},
+           giveni={C\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{15f1001477b9c94317586a585d9e3b51}
+      \strng{fullhash}{6173801a010f058a729eece145004e83}
+      \strng{bibnamehash}{6173801a010f058a729eece145004e83}
+      \strng{authorbibnamehash}{6173801a010f058a729eece145004e83}
+      \strng{authornamehash}{15f1001477b9c94317586a585d9e3b51}
+      \strng{authorfullhash}{6173801a010f058a729eece145004e83}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1538-3598}
+      \field{journaltitle}{JAMA}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{10}
+      \field{shorttitle}{Evaluation of the {{Benefits}} and {{Harms}} of {{Lung Cancer Screening With Low-Dose Computed Tomography}}}
+      \field{title}{Evaluation of the {{Benefits}} and {{Harms}} of {{Lung Cancer Screening With Low-Dose Computed Tomography}}: {{Modeling Study}} for the {{US Preventive Services Task Force}}}
+      \field{volume}{325}
+      \field{year}{2021}
+      \field{pages}{988\bibrangedash 997}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1001/jama.2021.1077
+      \endverb
+    \endentry
+    \entry{gowda_ambient_2019}{article}{}
+      \name{author}{13}{}{%
+        {{hash=18fb3129059655657262e3f499ef50ea}{%
+           family={Gowda},
+           familyi={G\bibinitperiod},
+           given={Shilpa\bibnamedelima N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=9e12af76f40a6506f5cc640b0f96aa7e}{%
+           family={DeRoos},
+           familyi={D\bibinitperiod},
+           given={Anneclaire\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=0fa69300e9734d57ddc312cd54ef1044}{%
+           family={Hunt},
+           familyi={H\bibinitperiod},
+           given={Rebecca\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=709d078f61832d4db916cd155eeef793}{%
+           family={Gassett},
+           familyi={G\bibinitperiod},
+           given={Amanda\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e83e89a65e3e2eae2a593aecddf537e6}{%
+           family={Mirabelli},
+           familyi={M\bibinitperiod},
+           given={Maria\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6672786a1e529cf01b2bc8ca57c351c7}{%
+           family={Bird},
+           familyi={B\bibinitperiod},
+           given={Chloe\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=ba54875509a7e161f07a7f3e61c747e0}{%
+           family={Margolis},
+           familyi={M\bibinitperiod},
+           given={Helene\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=2306e7e74c14aed03696ed5331945233}{%
+           family={Lane},
+           familyi={L\bibinitperiod},
+           given={Dorothy},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6bd7d4753e8ed22b695a094b657c01f1}{%
+           family={Bonner},
+           familyi={B\bibinitperiod},
+           given={Matthew\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=d28c694be78d66569cfeecae0901374d}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Garnet},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8afb8fec688cbfc2795e36f76f2c227d}{%
+           family={Whitsel},
+           familyi={W\bibinitperiod},
+           given={Eric\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4f9421f92ab050b53dd0d8259e4979bb}{%
+           family={Kaufman},
+           familyi={K\bibinitperiod},
+           given={Joel\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=7ab1d60f27bb62e65c4cc0d6bf54895c}{%
+           family={Bhatti},
+           familyi={B\bibinitperiod},
+           given={Parveen},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{aae52411e33697c59a66ebac8681ba2e}
+      \strng{fullhash}{1c5a559b3f6a8a3d4a87685775651ffa}
+      \strng{bibnamehash}{1c5a559b3f6a8a3d4a87685775651ffa}
+      \strng{authorbibnamehash}{1c5a559b3f6a8a3d4a87685775651ffa}
+      \strng{authornamehash}{aae52411e33697c59a66ebac8681ba2e}
+      \strng{authorfullhash}{1c5a559b3f6a8a3d4a87685775651ffa}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2474-7882}
+      \field{journaltitle}{Environmental Epidemiology}
+      \field{month}{10}
+      \field{number}{6}
+      \field{title}{Ambient Air Pollution and Lung Cancer Risk among Never-Smokers in the {{Women}}'s {{Health Initiative}}}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{3}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{e076}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1097/EE9.0000000000000076
+      \endverb
+    \endentry
+    \entry{yu_characterization_2015}{article}{}
+      \name{author}{33}{}{%
+        {{hash=e8a846c9e2d430a42ae52afc8f6b1fbe}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Xian-Jun},
+           giveni={X\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=ba1576332e02858af870204943fe046d}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Min-Jun},
+           giveni={M\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=78b85e16af77a1b542f32ece926f004b}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=fbef6c42d25a2318ef487de943279d35}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Gui-Zhen},
+           giveni={G\bibinithyphendelim Z\bibinitperiod}}}%
+        {{hash=a4b62d76da2a3e5df21847da42996319}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yun-Chao},
+           giveni={Y\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=a2d365acc8b48051a0804c6449d84724}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Li-Chuan},
+           giveni={L\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=2103a5725c16de31b6a666c9227f848e}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=6dd2139a0bbde79bb20644621cd71f0a}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Zhe-Sheng},
+           giveni={Z\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=ca0da97afccd5c51fdf19fd62d086855}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Jin-Yan},
+           giveni={J\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=80153a5da9b7e63b7d7980c15111c304}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yun-Dong},
+           giveni={Y\bibinithyphendelim D\bibinitperiod}}}%
+        {{hash=413bd4ea7ec88cfa491f68629651aeb6}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Xiao-Hong},
+           giveni={X\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=d20500d06c668f90e2b2044e7d0ecbbd}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Gao-Feng},
+           giveni={G\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=5bfc837c71cce294738b62dbc829358f}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Shui-Wang},
+           giveni={S\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=713c8791de1740f3b2a1e3bbe3c485cf}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Zhao-Hui},
+           giveni={Z\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=1391405e7ab63fb890ccba34bb328853}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod}}}%
+        {{hash=17f2aac3f46eba2efa35ff1ab0de7f50}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Chun-Ming},
+           giveni={C\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=2053a78b8c7e674d28eabbe236f2f077}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ping},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5f37bd43f89b4be5405342c25404e724}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Hao-Bin},
+           giveni={H\bibinithyphendelim B\bibinitperiod}}}%
+        {{hash=4c81970d6f3d30afe23991c3a53d098c}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Zhi-Peng},
+           giveni={Z\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=01187fee6c7174409d5c51763251ce94}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiao-Lu},
+           giveni={X\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=97b1b6551331989dfed2c5e23f0343cd}{%
+           family={Mao},
+           familyi={M\bibinitperiod},
+           given={Wen-Jing},
+           giveni={W\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=97bb5c10c9b57509b105e3e4fabf6eab}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Xiao-Long},
+           giveni={X\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=d28ac4509a75851506bd8d04008cc735}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ea24ed4e6254693bee8fc5399079515a}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Shu-Ting},
+           giveni={S\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=5c0f8e2932d6d98f7adc0800d5c6c234}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Yong-Qiang},
+           giveni={Y\bibinithyphendelim Q\bibinitperiod}}}%
+        {{hash=053f86c00cc2de95ac31285eeb004726}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Wen-Yi},
+           giveni={W\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=27bc2acdd12318a571954b8db6f5dc0a}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=21cc5f749061130dc2293180e0568e8b}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8569633a01220922b4b0cc023b4fa637}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Lin-Wei},
+           giveni={L\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=2b6cc22058f97b26ae88a18509eee77e}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Sai-Juan},
+           giveni={S\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=5d448c7ef3c89e7138522e57768e1ed5}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=089233fbb8cc3dd2255a8747a1829eb8}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Sheng-Yue},
+           giveni={S\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=5cdd227c5d2312bf9b0766cfaf01b9f2}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Guang-Biao},
+           giveni={G\bibinithyphendelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6c90637d21928780eaed312d5d0e355}
+      \strng{fullhash}{e56981220e06d2805ff4d267318e91d3}
+      \strng{bibnamehash}{e56981220e06d2805ff4d267318e91d3}
+      \strng{authorbibnamehash}{e56981220e06d2805ff4d267318e91d3}
+      \strng{authornamehash}{d6c90637d21928780eaed312d5d0e355}
+      \strng{authorfullhash}{e56981220e06d2805ff4d267318e91d3}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2352-3964}
+      \field{journaltitle}{EBioMedicine}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Characterization of {{Somatic Mutations}} in {{Air Pollution-Related Lung Cancer}}}
+      \field{volume}{2}
+      \field{year}{2015}
+      \field{pages}{583\bibrangedash 590}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.ebiom.2015.04.003
+      \endverb
+    \endentry
   \enddatalist
   \missing{Meyer:CellSys}
-  \missing{x}
 \endrefsection
 \endinput
 

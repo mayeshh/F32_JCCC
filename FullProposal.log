@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  25 APR 2024 10:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  25 APR 2024 18:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1520,13 +1520,13 @@ Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \glo@main@file=\write8
 \openout8 = `FullProposal.glo'.
 
-Package glossaries Info: Writing glossary file FullProposal.glo on input line 1
-2.
+Package glossaries Info: Writing glossary file FullProposal.glo on input line 8
+.
 \glo@acronym@file=\write9
 \openout9 = `FullProposal.acn'.
 
-Package glossaries Info: Writing glossary file FullProposal.acn on input line 1
-2.
+Package glossaries Info: Writing glossary file FullProposal.acn on input line 8
+.
 
 (./Acronyms.tex)
 Package biblatex Info: Trying to load language 'english'...
@@ -1544,28 +1544,28 @@ Package biblatex Warning: Patching footnotes failed.
 (./FullProposal.aux)
 \openout1 = `FullProposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 16.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 12.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 12.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 16.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 12.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -1600,7 +1600,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 16.
+LaTeX Info: Redefining \microtypecontext on input line 12.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1624,7 +1624,7 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 16.
+Package hyperref Info: Link coloring OFF on input line 12.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1634,9 +1634,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count453
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 12.
+LaTeX Info: Redefining \pageref on input line 12.
+LaTeX Info: Redefining \nameref on input line 12.
 
 (./FullProposal.out) (./FullProposal.out)
 \@outlinefile=\write10
@@ -1692,51 +1692,55 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                x
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
 )
-Package biblatex Info: Reference section=0 on input line 16.
-Package biblatex Info: Reference segment=0 on input line 16.
+Package biblatex Info: Reference section=0 on input line 12.
+Package biblatex Info: Reference segment=0 on input line 12.
  (./SpecificAims.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 22.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 51.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 24.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 26.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 26.
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 29.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 51.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 54.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
 ) [1
 
 \openout7 = `FullProposal.ist'.
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 24.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 20.
  (./Significance.tex [2
 
 ]) (./Innovation.tex) (./Aim1.tex
 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 10.
+
+
+
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Figure.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Figures/Figure.pdf, id=67, 863.21097pt x 591.54399pt>
+<./Figures/Figure.pdf, id=92, 863.21097pt x 591.54399pt>
 File: ./Figures/Figure.pdf Graphic file (type pdf)
 <use ./Figures/Figure.pdf>
 Package pdftex.def Info: ./Figures/Figure.pdf  used on input line 18.
@@ -1758,7 +1762,7 @@ No file FullProposal.acr.
 [6
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 43.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 39.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -1769,26 +1773,26 @@ Package microtype Info: Loading generic protrusion settings for font family
  [7
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
 
 (./FullProposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 41.
 Package rerunfilecheck Info: File `FullProposal.out' has not changed.
-(rerunfilecheck)             Checksum: CEF0245046512B4735E99C0E28A9FA05;686.
+(rerunfilecheck)             Checksum: CBC49F730986DB9518100300762B0C7F;783.
 Package logreq Info: Writing requests to 'FullProposal.run.xml'.
 \openout1 = `FullProposal.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32532 strings out of 492649
- 571997 string characters out of 6129622
- 1187963 words of memory out of 5000000
- 35794 multiletter control sequences out of 15000+600000
- 572839 words of font info for 148 fonts, out of 8000000 for 9000
+ 32586 strings out of 492649
+ 573646 string characters out of 6129622
+ 1190963 words of memory out of 5000000
+ 35814 multiletter control sequences out of 15000+600000
+ 571889 words of font info for 167 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,94p,10402b,1284s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,6n,94p,10402b,1287s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
@@ -1800,10 +1804,10 @@ e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
 exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-di
 st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/font
 s/type1/urw/helvetic/uhvro8a.pfb>
-Output written on FullProposal.pdf (7 pages, 121126 bytes).
+Output written on FullProposal.pdf (7 pages, 131029 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
- 45 named destinations out of 1000 (max. 500000)
- 25678 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 196 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 25166 words of extra memory for PDF output out of 29859 (max. 10000000)
 
