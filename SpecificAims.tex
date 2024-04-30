@@ -1,85 +1,143 @@
 %%%%% SPECIFIC AIMS %%%%%%
-
-% 1 page maximum
-
+% 1 page maximum%
 
 
-%    Precise quantification of personal exposures to PM$_{2.5}$, PAHs, NO, and metals using advanced geospatial monitoring and modeling, overcoming limitations of previous studies relying on census tract pollution maps
-%    Innovative integration of high-resolution exposure data with comprehensive individual health parameters to model the complex interplay between external exposures and internal susceptibility factors like obesity, diabetes, and inflammation
-%    Development of the first comprehensive, multidisciplinary model elucidating the environmental drivers and biological mechanisms underlying NSCLC initiation and progression from air pollutants, by combining cutting-edge exposure science with epidemiology and molecular biology
-%    Identification of causal mutational signatures linked to specific carcinogens under the mentorship of Dr. Paul Spellman, a renowned geneticist, using cutting-edge techniques to pinpoint molecular alterations induced by PM$_{2.5}$, PAHs, NO, and toxic metals, establishing a direct mechanistic link between environmental exposures and lung cancer development
-%    Focus on environmental contributors in never-smokers, who often exhibit distinct molecular profiles, to investigate subtype-specific mechanisms and reveal novel vulnerabilities for targeted therapies
-%    Leveraging advanced exposure monitoring integrated with epidemiological and molecular approaches to generate an unprecedented multidisciplinary model of environmental lung carcinogenesis, with the potential to transform our understanding of air pollution's role in NSCLC and identify new avenues for prevention and treatment, especially in high-risk never-smoker populations
+\newcommand{\SpecificAimOne}{Develop a Hidden Markov Model using the PCAWG dataset to accurately time mutations in NSCLC}
+\newcommand{\SpecificAimOneA}{Construct an initial HMM framework specifically tailored to capture the progression dynamics of NSCLC based on the PCAWG dataset}
+\newcommand{\SpecificAimOneB}{Refine the model to incorporate single nucleotide variants (SNVs) from the PCAWG dataset as primary emissions for mutation timing}
+\newcommand{\SpecificAimOneC}{Optimize the model's parameters, including transition probabilities and emission distributions, to enhance prediction accuracy}
+\newcommand{\SpecificAimOneD}{Prepare the model framework for application on a broader dataset by ensuring scalability and adaptability}
 
+\newcommand{\SpecificAimTwo}{Apply the refined HMM to the Black Lung Cancer Dataset to study mutation timing in NSCLC among African Americans}
+\newcommand{\SpecificAimTwoA}{Adapt the HMM to accommodate genetic and mutational diversity specific to the African American NSCLC population}
+\newcommand{\SpecificAimTwoB}{Analyze the mutation timings across different cities to identify common and unique mutational patterns}
+\newcommand{\SpecificAimTwoC}{Correlate mutational timelines with available clinical outcomes to assess prognostic implications of mutation patterns}
 
-%\paragraph{Precise Exposure Assessment}
-%
-%\paragraph{Integration of Exposures and Social Determinants}
-%
-%\paragraph{Multidisciplinary Carcinogenesis Model}
-%
-%\paragraph{Identification of Causal Mutational Signatures}
-%
-%\paragraph{Focus on Never-Smokers and Subtypes}
-%
-%\paragraph{Transformative Potential}
-%
-
-\newcommand{\SpecificAimOne}{Investigate the mechanistic link between PM$_{2.5}$ exposure and aggressive lung cancer biology in Black men and women}
-\newcommand{\SpecificAimOneA}{Determine the association between PM$_{2.5}$ exposure and TP53 somatic mutations in a cohort of 505 lung cancer patients}
-\newcommand{\SpecificAimOneB}{Assess the relationship between adverse social determinants of health and PM$_{2.5}$ exposure}
-\newcommand{\SpecificAimOneC}{Validate the association between PM$_{2.5}$ and aggressive lung cancer biology using an independent cohort}
-\newcommand{\SpecificAimOneD}{Integrate PM$_{2.5}$ exposure data with tumor genomic profiles to identify specific mutational signatures associated with air pollution exposure}
-
-\newcommand{\SpecificAimTwo}{Characterize the timing and order of somatic mutations during lung cancer evolution}
-\newcommand{\SpecificAimTwoA}{Reconstruct tumor phylogenetic trees to infer the timing of driver mutations and copy number alterations}
-\newcommand{\SpecificAimTwoB}{Identify common patterns in the order of genomic events across lung cancer subtypes}
-\newcommand{\SpecificAimTwoC}{Determine whether the timing of mutations differs between Black and White patients}
-
-\newcommand{\SpecificAimThree}{Map cell-cell signaling networks in the lung tumor microenvironment}
-\newcommand{\SpecificAimThreeA}{Reconstruct ligand-receptor interactions between malignant, immune, stromal and endothelial cells using single-cell RNA sequencing}
-\newcommand{\SpecificAimThreeB}{Identify key signaling pathways and cell-cell interactions associated with early lung cancer development}
-\newcommand{\SpecificAimThreeC}{Determine how the tumor microenvironment signaling network differs between Black and White patients}
+\newcommand{\SpecificAimThree}{Validate the HMM's performance in predicting accurate mutation timings in NSCLC}
+\newcommand{\SpecificAimThreeA}{Compare the HMM predictions with known clinical and pathological data to validate accuracy}
+\newcommand{\SpecificAimThreeB}{Perform statistical validation using cross-validation methods to evaluate the model's robustness and reliability}
+\newcommand{\SpecificAimThreeC}{Publish the validation results and methodology in a peer-reviewed computational biology journal}
 
 \subsection{Specific Aims}
 
-Lung cancer disproportionately affects Black men and women, who experience higher incidence and mortality rates compared to non-Hispanic Whites. 
-Environmental exposures, such as air pollution, and tumor genomic profiles likely contribute to these disparities. 
-The overarching goal of this research is to elucidate the molecular links between environmental exposures, social determinants, 
-and tumor evolution Black lung cancer patients.
+This proposal focuses on enhancing the accuracy of mutation timing in non-small cell lung cancer (NSCLC) through advanced computational modeling using a Hidden Markov Model (HMM). Our project leverages the extensive genomic data from the PCAWG dataset to develop a robust model that will be specifically applied to understand NSCLC progression in African Americans.
 
-\paragraph*{Aim 1: \SpecificAimOne} \emph{Hypothesis: Exposure to PM$_{2.5}$ is associated with aggressive lung cancer biology in Black patients.}
+\paragraph*{Aim 1: \SpecificAimOne} \emph{Hypothesis: A specifically designed HMM can effectively use the PCAWG dataset to model mutation timing in NSCLC.}
 
 \begin{itemize}[noitemsep]
-	\item \SpecificAimOneA
-	\item \SpecificAimOneB
-	\item \SpecificAimOneC
-	\item \SpecificAimOneD
+    \item \SpecificAimOneA
+    \item \SpecificAimOneB
+    \item \SpecificAimOneC
+    \item \SpecificAimOneD
 \end{itemize}
 
-\paragraph*{Aim 2: \SpecificAimTwo} \emph{Hypothesis: The timing and order of somatic mutations differs between Black and White lung cancer patients.}
+\paragraph*{Aim 2: \SpecificAimTwo} \emph{Hypothesis: Applying the HMM to the Black Lung Cancer Dataset will reveal unique mutational timing and patterns specific to the African American population with NSCLC.}
 
 \begin{itemize}[noitemsep]
-	\item \SpecificAimTwoA
-	\item \SpecificAimTwoB
-	\item \SpecificAimTwoC
+    \item \SpecificAimTwoA
+    \item \SpecificAimTwoB
+    \item \SpecificAimTwoC
 \end{itemize}
 
-\paragraph*{Aim 3: \SpecificAimThree} \emph{Hypothesis: The lung tumor microenvironment signaling network is altered in Black patients compared to Whites.}
+\paragraph*{Aim 3: \SpecificAimThree} \emph{Hypothesis: The HMM will provide accurate and clinically relevant predictions of mutation timings, enhancing our understanding of NSCLC progression in African Americans.}
 
 \begin{itemize}[noitemsep]
-	\item \SpecificAimThreeA
-	\item \SpecificAimThreeB
-	\item \SpecificAimThreeC
+    \item \SpecificAimThreeA
+    \item \SpecificAimThreeB
+    \item \SpecificAimThreeC
 \end{itemize}
 
-This research will provide novel insights into the biological mechanisms underlying lung cancer disparities in Black patients. 
-By integrating data on environmental exposures, tumor genomics, and the tumor microenvironment, 
-we aim to identify specific molecular signatures and signaling pathways that contribute to aggressive lung cancer biology in this high-risk population. 
-These findings could inform the development of targeted prevention and diagnosis strategies to reduce lung cancer disparities.
+This computational approach aims to significantly advance our understanding of NSCLC progression by providing a precise temporal framework for mutation development, which could ultimately influence treatment strategies and outcomes for African American populations.
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% aim 1
+%\newcommand{\SpecificAimOne}{Identify the Timing and Ordering of Driver Mutations and Copy Number Changes in NSCLC}
+%% sub-aims
+%\newcommand{\SpecificAimOneA}{Aggregate gene-level, pairwise timing estimates across many samples to identify the driver genes and CN gains in NSCLC}
+%\newcommand{\SpecificAimOneB}{Infer sequences of genomic events, such as early driver events in NSCLC and late events like WGD} % is order correct?
+%\newcommand{\SpecificAimOneC}{Extend the analysis to tumors not yet mapped, and identify the order of TP53 mutations/loss of chromosome 17, WGD, and CN changes} % redundant? need to define not yet mapped
+%% possibly combine aims 1, 2, and 3?
+%
+%% aim 2
+%\newcommand{\SpecificAimTwo}{Identify Changes in Mutational Signatures Between Early and Late Clonal Evolutionary Periods}
+%% sub-aims
+%\newcommand{\SpecificAimTwoA}{Catalog mutational signatures expressed in a three-base context centered on point mutations, identifying biases favoring mutation of one base pair given the neighboring bases}
+%\newcommand{\SpecificAimTwoB}{Compare early clonal and late clonal SNVs to identify signatures most likely to decrease in activity (UV light, smoking) or increase (APOBEC) from early to late tumor evolution} %%% Maybe something about separating smoking effects from environmental effects?
+%\newcommand{\SpecificAimTwoC}{Develop computational approaches to detect changes in mutational signature activity between early and late clonal periods} % extremely vague, also is this not already done?
+%
+%
+%% aim 3
+%\newcommand{\SpecificAimThree}{Model Molecular Clocks and Tumor Timing Using Sequential Tissue Samples} % am I understanding this right?
+%% sub-aims
+%\newcommand{\SpecificAimThreeA}{Utilize SBS1 (C to T in CpG) and SBS5 mutational processes as molecular clocks that reflect tissue age, with distinct rates in different tissues} % to identify the age of the tumor? what's the goal?
+%\newcommand{\SpecificAimThreeB}{Model clock rates and rate increases for each tumor type using temporally separated tissue samples i.e. samples taken from the same patient over time} % is this too specific? are the taken from the same location or are they also spatially separated??
+%\newcommand{\SpecificAimThreeC}{Apply the clock models to assess when tumors undergo major events like WGD and predict the timing of tumor development phases in NSCLC} 
+%
+%
+%% aim 4
+%\newcommand{\SpecificAimFour}{Generate Comprehensive Tumor Timing Maps for Each Cancer Type} 
+%% sub-aims
+%\newcommand{\SpecificAimFourA}{Combine timing results, ordering models, mutational signature changes, and molecular clock models to produce detailed timelines of tumor development for each cancer type} % summarize work in penultimate timing map
+%% define what I mean by ``cancer type'', is this for NSCLC with differnet histological phenotypes?
+%\newcommand{\SpecificAimFourB}{Apply the timing approaches to metastatic cancers in addition to primary tumors, demonstrating the ability to time tumor progression from pre-cancer to cancer and across metastases}
+%\newcommand{\SpecificAimFourC}{Use the timing maps to identify common patterns and differences in the timing of driver mutations, WGD, and other key events across NSCLC heterogeneities} %?
+%
+%
+%
+%\subsection{Specific Aims} 
+%
+%This work will provide unprecedented insights into the timing and ordering of driver mutations, 
+%copy number changes, and mutational processes during tumor evolution. 
+%By modeling molecular clocks and generating comprehensive timing maps for tumors and metastases, 
+%I will be able to predict the timing of key events in tumor development and progression, 
+%including the transition from pre-cancer to cancer. 
+%These timelines will allow us to correlate environmental exposure to pollutants with lung cancer occurrences in Blacks. 
+%
+%
+%\paragraph*{Aim 1: \SpecificAimOne} \emph{Hypothesis: The ordering of driver mutations and copy number changes follows consistent patterns within NSCLC that can be inferred from aggregating timing estimates across many samples.} 
+%
+%\begin{itemize}[noitemsep]
+%\item \SpecificAimOneA
+%\item \SpecificAimOneB
+%\item \SpecificAimOneC
+%\end{itemize} 
+%
+%\paragraph*{Aim 2: \SpecificAimTwo} \emph{Hypothesis: Mutational signatures show characteristic changes in activity between early and late clonal evolutionary periods that can be detected computationally.} 
+%
+%\begin{itemize}[noitemsep]
+%\item \SpecificAimTwoA
+%\item \SpecificAimTwoB
+%\item \SpecificAimTwoC
+%\end{itemize} 
+%
+%\paragraph*{Aim 3: \SpecificAimThree} \emph{Hypothesis: Molecular clocks based on mutational processes can be used to model tumor timing and rate increases in a tissue and tumor-type specific manner.} 
+%
+%\begin{itemize}[noitemsep]
+%\item \SpecificAimThreeA
+%\item \SpecificAimThreeB
+%\item \SpecificAimThreeC
+%\end{itemize} 
+%
+%\paragraph*{Aim 4: \SpecificAimFour} \emph{Hypothesis: Integrating timing results, ordering models, mutational signature changes, and molecular clocks will enable the generation of comprehensive tumor timing maps that capture the full trajectory of tumor development.} 
+%
+%\begin{itemize}[noitemsep]
+%\item \SpecificAimFourA
+%\item \SpecificAimFourB
+%\item \SpecificAimFourC
+%\end{itemize}
+%
+%This work has the potential to significantly impact the scientific community by advancing our understanding 
+%of environmental mutational signatures in NSCLC and developing tools to predict and prevent disease. 
+%Importantly, the cohort is composed of Blacks in urban cities like LA, effectively promoting much needed diversity, equity, and inclusion in cancer research and care.
+%This research will inform early detection strategies and guide the development of prevention and treatment approaches tailored to each stage of tumor evolution. 
+%
 
 %%%%%%%%%%%%%
+
+%%%TEMPLATE%%%
 
 %\newcommand{\SpecificAimOne}{Start off strong with a major foray into safe work}
 %\newcommand{\SpecificAimOneA}{A task that comes with convincing preliminary data}
@@ -128,3 +186,4 @@ These findings could inform the development of targeted prevention and diagnosis
 %\end{itemize}
 %
 %This work will considerably improve our ability to identify efficacious drug combinations by: (a) developing a mechanism-based assay for identifying which \glspl{rtk} are driving bypass resistance, (b) improving our basic understanding of exactly how network-level bypass resistance arises due to activation of non-targeted \glspl{rtk} both at the receptor-proximal and downstream signaling layer, and (c) expanding our understanding of the \gls{rtk} AXL with links to resistance, tumor spread, and immune avoidance.
+%
