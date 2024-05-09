@@ -22,25 +22,25 @@ Furthermore, a 2019 meta-analysis estimated that a $10~\mu g/m^{3}$ increase in 
 Despite the clear evidence linking air pollution exposure to elevated lung cancer risk, 
 the precise molecular mechanisms by which these complex pollutant mixtures initiate and promote NSCLC remain poorly understood, 
 representing a critical knowledge gap. 
-This study will investigate lung cancer in Blacks, an understudied group that exhibits a high prevalence of aggressive, 
+This study will investigate lung cancer in African Americans/Blacks (Black Americans), an understudied group that exhibits a high prevalence of aggressive, 
 early-onset tumors that are often driven by distinct molecular profiles like EGFR mutations.~\cite{marcinkiewicz_impact_2023}
 Elucidating the environmental drivers and biological pathways of lung carcinogenesis in this subgroup could reveal novel diagnostic approaches. 
 
-\paragraph{Addressing Lung Cancer Inequities in Blacks}
-Although African Americans/Blacks (Blacks) have lower smoking rates compared to non-Hispanic Whites, 
+\paragraph{Addressing Lung Cancer Inequities in Black Americans}
+Although Black Americans have lower smoking rates compared to non-Hispanic Whites, 
 they experience significantly higher lung cancer incidence and mortality rates, especially among men.~\cite{belony_abstract_2022,thaiparambil_abstract_2023,valencia_interrogating_2022} 
-This disparity is striking, as Blacks tend to initiate smoking later in life and consume fewer cigarettes compared to their White counterparts.~\cite{thaiparambil_abstract_2023,hede_drilling_2010} 
+This disparity is striking, as Black Americans tend to initiate smoking later in life and consume fewer cigarettes compared to their White counterparts.~\cite{thaiparambil_abstract_2023,hede_drilling_2010} 
 Black women, despite smoking fewer cigarettes, have the same or higher incidence of lung cancer as White women. %~\cite{} ???
 
-Current lung cancer screening guidelines based on pack-years and age~\cite{landy_absolute_2024} fail to adequately identify Blacks at risk.
-Blacks are diagnosed with lung cancer at a significantly younger age than Whites, often before reaching the screening threshold of 30 pack-years or age 55.~\cite{meza_evaluation_2021} 
+Current lung cancer screening guidelines based on pack-years and age~\cite{landy_absolute_2024} fail to adequately identify Black Americans at risk.
+Black Americans are diagnosed with lung cancer at a significantly younger age than Whites, often before reaching the screening threshold of 30 pack-years or age 55.~\cite{meza_evaluation_2021} 
 The molecular drivers underlying these aggressive, early-onset lung cancers in the Black population remain unclear.
 However, disparities in environmental exposures, particularly air pollution, are suspected to play a role.~\cite{marcinkiewicz_impact_2023}
-Evidence shows that Blacks are consistently exposed to significantly higher levels of PM$_{2.5}$ and NO compared to non-Hispanic Whites. %~\cite{hede_drilling_2010} ?
+Evidence shows that Black Americans are consistently exposed to significantly higher levels of PM$_{2.5}$ and NO compared to non-Hispanic Whites. %~\cite{hede_drilling_2010} ?
 This study will utilize a multi-regional cohort of non-smokers, former smokers, and smokers,
-to identify the molecular connections between air pollutants and lung cancer in Blacks.
+to identify the molecular connections between air pollutants and lung cancer in Black Americans.
 
-Furthermore, existing studies do not account for how social determinants of health in Blacks may modulate susceptibility to cancers.~\cite{valencia_interrogating_2022} 
+Furthermore, existing studies do not account for how social determinants of health in Black Americans may modulate susceptibility to cancers.~\cite{valencia_interrogating_2022} 
 Addressing this gap is crucial for accurately assessing risk and developing prevention strategies in diverse populations.
 
 \paragraph{Characterization of Environmental Exposure}
@@ -55,9 +55,48 @@ may alter the chemical composition and carcinogenic potency of air pollution ove
 Another major shortcoming is the lack of integration of social determinants of health, 
 such as obesity, diabetes, and chronic inflammatory conditions, which may exacerbate susceptibility to cancer.
 
+\paragraph{Harnessing Advanced Computational Models for Precise Mutation Timing and Cancer Progression Analysis}
+% current methods
+In Gerstung \textit{et al.}~\cite{gerstung_evolutionary_2020}, commonly used methods for analyzing cancer progression and mutation timing 
+typically involve statistical models like Cox proportional hazards models and logistic regression. 
+These models are used to identify correlations and predict outcomes based on well-defined variables. 
+They work effectively for deriving broad insights from large datasets by statistically analyzing 
+the risk factors and progression indicators, offering 
+clear, interpretable results that are crucial for clinical decision-making and epidemiological studies. 
+These methods provide a solid foundation for understanding the dynamics of disease but may not capture the 
+more complex and nuanced interactions seen in genomic data.
+
+% Eplain HMM
+A Hidden Markov Model (HMM) is an ideal approach for modeling time-series data where the states of the system are not directly observable, 
+\textit{i.e.}, hidden, but can be inferred through observable events. 
+This statistical model captures the probabilities of transitions between hidden states based on observed data, 
+making it highly effective for sequential prediction tasks such as decoding genetic sequences or understanding disease progression. 
+HMMs excel in handling the uncertainties and variabilities inherent in sparse biological data, 
+allowing them to robustly model complex stochastic processes like mutation timing in cancer development.
+
+% Explain what an LSTM is 
+A Long Short-Term Memory (LSTM) network is a type of recurrent neural network (RNN) 
+designed to overcome the challenges of learning from data sequences over extended periods. 
+Its unique architecture, featuring input, output, and forget gates, allows it to maintain long-term dependencies 
+and remember important information, making it highly effective for complex tasks like genomic data analysis 
+and disease progression modeling. 
+This capability enables LSTMs to accurately predict future events based on historical and current data, 
+making them a good choice for tracking mutation timings in cancer cells.
+
+% Why the LSTM-HMM approach is better than current methods
+The LSTM-HMM hybrid approach offers a significant advancement over current methods used in cancer progression analysis 
+by combining the deep learning capabilities of LSTMs with the robust probabilistic modeling of the classical HMM. 
+While traditional methods like logistic regression or Cox proportional hazards models provide valuable insights from statistical correlations, 
+they often fail to capture complex, non-linear interactions and long-term dependencies in genomic data. 
+LSTMs excel at processing long sequences and retaining information over time, 
+making them ideal for identifying subtle patterns and temporal dynamics in disease progression. 
+When integrated with HMMs, which effectively model the hidden states and transition probabilities of biological processes, 
+the hybrid approach enhances predictive accuracy and provides a more nuanced understanding of mutation timings and disease evolution. 
+The LSTM-HMM provides a more dynamic analysis, enabling precise identification of tumor progression.
+
 \paragraph{Potential for Transformative Impact}
 
-This study will employ advanced geospatial methods to precisely quantify individual exposures to air pollutants 
+This study will employ advanced geospatial methods to quantify individual exposures to air pollutants 
 in Black communities in LA, Chicago, New Orleans, Charlestown SC, Richmond VA, and Rochester NY. 
 Crucially, it will integrate this environmental exposure data with social determinants of health and biological factors 
 that modulate disease susceptibility in these communities. 
@@ -66,18 +105,23 @@ due to factors like redlining, the placing of industrial facilities near their n
 Despite having some of the lowest rates of smoking in the US, LA suffers from some of the worst highway-generated air pollution. 
 By precisely characterizing these elevated exposures and combining them with data on 
 obesity, diabetes, chronic inflammation, and other risk factors prevalent in Black communities, 
-the goal is to develop a comprehensive model elucidating how environmental drivers interact synergistically with 
+the goal is to develop a comprehensive analysis that elucidates how environmental drivers interact synergistically with 
 social and biological parameters to initiate and promote aggressive, early-onset NSCLC in this population. 
 
-This multidisciplinary approach, combining external exposure assessments with internal susceptibility factors, 
-will provide novel mechanistic insights into the environmental carcinogenesis pathways driving the excess lung cancer burden observed in Black communities. 
-By integrating precise air pollution exposure data with epidemiological cohorts and molecular tumor profiling from Black NSCLC patients, 
-this study will generate a comprehensive model of how environmental insults precipitate lung carcinogenesis 
-in the context of social and biological vulnerabilities in this underserved population. 
-Insights from this innovative approach have the potential to transform our understanding of air pollution's role in NSCLC etiology in Blacks 
-and identify new opportunities for targeted prevention, early detection, and treatment strategies.
-This is particularly important as while the rates of most lung cancers are declining, 
-the incidence of NSCLC in non-smoking women of color is rapidly rising in LA and other cities.%~\cite{} ???
+Integrating these assessments with the advanced capabilities of a hybrid HMM-LSTM model, 
+the study will enhance the precision in mapping the timing of mutational events and uncover complex patterns of NSCLC progression. 
+This multidisciplinary approach, which combines external exposure assessments with internal susceptibility factors, 
+is poised to provide novel mechanistic insights into the environmental carcinogenesis pathways 
+that contribute to the excessive lung cancer burden observed in Black communities. 
+By correlating precise air pollution exposure data with epidemiological cohorts and molecular tumor profiling from Black NSCLC patients, 
+the research will forge a comprehensive model of how environmental toxins catalyze lung carcinogenesis 
+amidst the backdrop of social and biological vulnerabilities in this underserved population. 
+We expect insights derived from this innovative approach to transform our understanding of the 
+role air pollution plays in NSCLC etiology among Black Americans 
+and pave the way for new targeted prevention, early detection, and treatment strategies. 
+This is increasingly vital as, despite overall declining lung cancer rates, 
+the incidence of NSCLC among women of color is rising in LA and similar urban areas. %cite?
+
 
 %\paragraph{Air Pollution and Lung Cancer Risk in LA County}
 %
@@ -170,4 +214,4 @@ the incidence of NSCLC in non-smoking women of color is rapidly rising in LA and
 %Whole-genome sequencing (WGS) of human tumors has revealed distinct mutation patterns linked to specific exposures. 
 %These mutational signatures permit further exploration of the roles of environmental agents in cancer etiology and underscores how DNA is directly vulnerable to environmental agents. 
 %Further, we can use these tools to measure when during tumor development these exposures exerted their mutagenic effects (Gerstung 2020). 
-%We aim to use these molecular tools to precisely identify causal environmental exposures that promote initiation, progression, and aggressive NSCLC biology. Current lung cancer screening guidelines based on pack-years and age fail to adequately identify African Americans/Blacks at riay~\cite{x
+%We aim to use these molecular tools to precisely identify causal environmental exposures that promote initiation, progression, and aggressive NSCLC biology. Current lung cancer screening guidelines based on pack-years and age fail to adequately identify African Americans/Blacks at riay~\cite{xThe LSTM-HMM provides a more dynamic analysis, enabling precise identification of tumor progression.

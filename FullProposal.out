@@ -1,9 +1,9 @@
 \BOOKMARK [2][-]{subsection*.1}{Specific Aims}{}% 1
 \BOOKMARK [1][-]{section*.2}{Research Strategy}{}% 2
 \BOOKMARK [2][-]{subsection*.3}{Significance}{section*.2}% 3
-\BOOKMARK [2][-]{subsection*.8}{Innovation}{section*.2}% 4
-\BOOKMARK [2][-]{subsection*.9}{Approach}{section*.2}% 5
-\BOOKMARK [3][-]{subsubsection*.10}{Aim 1: Develop a Hidden Markov Model using the PCAWG dataset to accurately time mutations in NSCLC}{subsection*.9}% 6
-\BOOKMARK [3][-]{subsubsection*.17}{Aim 2: Apply the refined HMM to the Black Lung Cancer Dataset to study mutation timing in NSCLC among African Americans}{subsection*.9}% 7
-\BOOKMARK [3][-]{subsubsection*.23}{Aim 3: Validate the HMM's performance in predicting accurate mutation timings in NSCLC}{subsection*.9}% 8
-\BOOKMARK [1][-]{paragraph*.28}{References}{}% 9
+\BOOKMARK [2][-]{subsection*.9}{Innovation}{section*.2}% 4
+\BOOKMARK [2][-]{subsection*.10}{Approach}{section*.2}% 5
+\BOOKMARK [3][-]{subsubsection*.11}{Aim 1: Apply the Gerstung et al. method to a new dataset of Black Americans with lung cancer to establish a baseline for mutation timing and evolutionary patterns}{subsection*.10}% 6
+\BOOKMARK [3][-]{subsubsection*.18}{Aim 2: Develop and apply an advanced HMM integrated with machine learning to the same dataset to enhance mutation timing accuracy and uncover complex patterns}{subsection*.10}% 7
+\BOOKMARK [3][-]{subsubsection*.24}{Aim 3: Benchmark the integrated HMM and machine learning model and extend the application to other types of cancer for comparative studies and generalizability assessment}{subsection*.10}% 8
+\BOOKMARK [1][-]{paragraph*.29}{References}{}% 9

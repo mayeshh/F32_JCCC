@@ -1,17 +1,15 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'FullProposal.blg'
-[25] biber-darwin:313> INFO - === Thu Apr 25, 2024, 16:24:10
-[43] Biber.pm:371> INFO - Reading 'FullProposal.bcf'
-[105] Biber.pm:857> INFO - Found 15 citekeys in bib section 0
-[116] Biber.pm:3976> INFO - Processing section 0
-[125] Biber.pm:4136> INFO - Looking for bibtex format file 'bib.bib' for section 0
-[127] bibtex.pm:1500> INFO - LaTeX decoding ...
-[165] bibtex.pm:1316> INFO - Found BibTeX data source 'bib.bib'
-[346] Utils.pm:193> WARN - I didn't find a database entry for 'Meyer:CellSys' (section 0)
-[361] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[361] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[361] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[361] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[373] bbl.pm:617> INFO - Writing 'FullProposal.bbl' with encoding 'UTF-8'
-[383] bbl.pm:720> INFO - Output to FullProposal.bbl
-[383] Biber.pm:110> INFO - WARNINGS: 1
+[23] biber-darwin:313> INFO - === Thu May  9, 2024, 11:37:04
+[40] Biber.pm:371> INFO - Reading 'FullProposal.bcf'
+[93] Biber.pm:857> INFO - Found 15 citekeys in bib section 0
+[103] Biber.pm:3976> INFO - Processing section 0
+[112] Biber.pm:4136> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[114] bibtex.pm:1500> INFO - LaTeX decoding ...
+[155] bibtex.pm:1316> INFO - Found BibTeX data source 'bib.bib'
+[369] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[369] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[369] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[369] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[381] bbl.pm:617> INFO - Writing 'FullProposal.bbl' with encoding 'UTF-8'
+[392] bbl.pm:720> INFO - Output to FullProposal.bbl

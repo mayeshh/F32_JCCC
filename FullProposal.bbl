@@ -53,8 +53,8 @@
       \strng{authorbibnamehash}{d9e5299d57e39d33731f04d21074484b}
       \strng{authornamehash}{17aa17c0a8526d25e83c3a93f405dbb8}
       \strng{authorfullhash}{d9e5299d57e39d33731f04d21074484b}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{0025-6196}
@@ -152,8 +152,8 @@
       \strng{authorbibnamehash}{9727f3a8551fd844f1c2ba80e604abce}
       \strng{authornamehash}{df96d171197429dcf804650879504ab1}
       \strng{authorfullhash}{9727f3a8551fd844f1c2ba80e604abce}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{15560864}
@@ -272,8 +272,8 @@
       \strng{authorbibnamehash}{ee3b864b2d105803d769653e7b6de0c8}
       \strng{authornamehash}{00381d207c98f5c9d5dd7fc2d2503f28}
       \strng{authorfullhash}{ee3b864b2d105803d769653e7b6de0c8}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{1073-449X}
@@ -343,8 +343,8 @@
       \strng{authorbibnamehash}{bf6b6266a04f015896d6f7f0b110f996}
       \strng{authornamehash}{33d8949acd81e2cdcfa826095652d952}
       \strng{authorfullhash}{bf6b6266a04f015896d6f7f0b110f996}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1552-9924}
@@ -405,8 +405,8 @@
       \strng{authorbibnamehash}{ff7a26984f8aff165ed9016af7c2e31c}
       \strng{authornamehash}{fc50f16f759a81d9aad9e1958b9e8eee}
       \strng{authorfullhash}{ff7a26984f8aff165ed9016af7c2e31c}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{1661-7827}
@@ -466,8 +466,8 @@
       \strng{authorbibnamehash}{9a98e254e6b71af437515a2a714d8a46}
       \strng{authornamehash}{4375b3e8a4261b1519c6e3d0f85c8a80}
       \strng{authorfullhash}{9a98e254e6b71af437515a2a714d8a46}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{2199885X}
@@ -535,8 +535,8 @@
       \strng{authorbibnamehash}{488685bb220cb6530ead86a689955cd1}
       \strng{authornamehash}{1242b98dba5817c0a238a4951224d627}
       \strng{authorfullhash}{488685bb220cb6530ead86a689955cd1}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{0008-5472}
@@ -581,8 +581,8 @@
       \strng{authorbibnamehash}{247eb2f176c9e10cb8ae90d2c0f8c6c7}
       \strng{authornamehash}{247eb2f176c9e10cb8ae90d2c0f8c6c7}
       \strng{authorfullhash}{247eb2f176c9e10cb8ae90d2c0f8c6c7}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{0008-5472}
@@ -632,8 +632,8 @@
       \strng{authorbibnamehash}{11a5cd07cb29d31f878d38647fd97112}
       \strng{authornamehash}{13ddbf3a57362b0afab3052a50fb11d0}
       \strng{authorfullhash}{11a5cd07cb29d31f878d38647fd97112}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1661-7827}
@@ -667,8 +667,8 @@
       \strng{authorbibnamehash}{93ac20e3073f4c9572d55407983e1110}
       \strng{authornamehash}{93ac20e3073f4c9572d55407983e1110}
       \strng{authorfullhash}{93ac20e3073f4c9572d55407983e1110}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0027-8874}
@@ -722,8 +722,8 @@
       \strng{authorbibnamehash}{773f03651d60c53a57cac63a1ae1c7ee}
       \strng{authornamehash}{37f4b7455e6652042e54d70e07e90c32}
       \strng{authorfullhash}{773f03651d60c53a57cac63a1ae1c7ee}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{0008-543X}
@@ -818,8 +818,8 @@
       \strng{authorbibnamehash}{6173801a010f058a729eece145004e83}
       \strng{authornamehash}{15f1001477b9c94317586a585d9e3b51}
       \strng{authorfullhash}{6173801a010f058a729eece145004e83}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{1538-3598}
@@ -1124,8 +1124,271 @@
       \verb 10.1016/j.ebiom.2015.04.003
       \endverb
     \endentry
+    \entry{gerstung_evolutionary_2020}{article}{}
+      \name{author}{46}{}{%
+        {{hash=9f1f96fc2db050a05dbc959a9b3e680d}{%
+           family={Gerstung},
+           familyi={G\bibinitperiod},
+           given={Moritz},
+           giveni={M\bibinitperiod}}}%
+        {{hash=464bd9dd864d60062291b5f403ba44f7}{%
+           family={Jolly},
+           familyi={J\bibinitperiod},
+           given={Clemency},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e163f9bc8578bee284cfa1f841c68524}{%
+           family={Leshchiner},
+           familyi={L\bibinitperiod},
+           given={Ignaty},
+           giveni={I\bibinitperiod}}}%
+        {{hash=77a445953b21df834e2a33fa87c7d850}{%
+           family={Dentro},
+           familyi={D\bibinitperiod},
+           given={Stefan\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=376b9228b1593f0181e3ff7356f0247b}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={Santiago},
+           giveni={S\bibinitperiod}}}%
+        {{hash=374b7f91e4f41b62a04b9cc378396b5b}{%
+           family={Rosebrock},
+           familyi={R\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b384e3041f5e7bac3d0c87b727fe6714}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Thomas\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d7891653274cb8d85e3a83b41a0c2067}{%
+           family={Rubanova},
+           familyi={R\bibinitperiod},
+           given={Yulia},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3c5bc5a1f403cecb507e355832a11fb5}{%
+           family={Anur},
+           familyi={A\bibinitperiod},
+           given={Pavana},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e1dbc0893d0f09e87843367cefbc711d}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Kaixian},
+           giveni={K\bibinitperiod}}}%
+        {{hash=bccc2427a1df2f073e440bfa62ef806f}{%
+           family={Tarabichi},
+           familyi={T\bibinitperiod},
+           given={Maxime},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a816ce38389915574d9302a7355f4b93}{%
+           family={Deshwar},
+           familyi={D\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod}}}%
+        {{hash=606fc012e9216090b5e0c03119203f88}{%
+           family={Wintersinger},
+           familyi={W\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+        {{hash=56690caa997a4101457f68327d7f291f}{%
+           family={Kleinheinz},
+           familyi={K\bibinitperiod},
+           given={Kortine},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5f1a442d2f0d67bbe4fbb5ebfc78c410}{%
+           family={{V{á}zquez-Garc{í}a}},
+           familyi={V\bibinitperiod},
+           given={Ignacio},
+           giveni={I\bibinitperiod}}}%
+        {{hash=e3773fe16d55371f4cfd36de75903e9e}{%
+           family={Haase},
+           familyi={H\bibinitperiod},
+           given={Kerstin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=7720fe4e9e500c7cac95b5f7aff679d8}{%
+           family={Jerman},
+           familyi={J\bibinitperiod},
+           given={Lara},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ef29d2d69940fe6885e9fd603502c27c}{%
+           family={Sengupta},
+           familyi={S\bibinitperiod},
+           given={Subhajit},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1a84f00f2809b1fe6296fd58d9cdb7b7}{%
+           family={Macintyre},
+           familyi={M\bibinitperiod},
+           given={Geoff},
+           giveni={G\bibinitperiod}}}%
+        {{hash=44b525c6590c7c8120d569ad1c18f381}{%
+           family={Malikic},
+           familyi={M\bibinitperiod},
+           given={Salem},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b43b9c7a58cd2243dfc5307f65720cb0}{%
+           family={Donmez},
+           familyi={D\bibinitperiod},
+           given={Nilgun},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a58c9e3877aeba2ca84fea084f52c580}{%
+           family={Livitz},
+           familyi={L\bibinitperiod},
+           given={Dimitri\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=3d9d16411958aebaf21671fd6dfa8f34}{%
+           family={Cmero},
+           familyi={C\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6979d070c73e0df2b60e6922d2b4f16e}{%
+           family={Demeulemeester},
+           familyi={D\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=59333560448f7a6200b59ffdc3df54c9}{%
+           family={Schumacher},
+           familyi={S\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0654844efd71af996f1ab69b2c049060}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b245b4c02662863abd29da00a27650e3}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Xiaotong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=3771708b537194fa003ecbebec43b2bd}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Juhee},
+           giveni={J\bibinitperiod}}}%
+        {{hash=263fa68f99ace0884980d355c3c16501}{%
+           family={Schlesner},
+           familyi={S\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=eeecdf4b008c67e2a65f48642aa8e306}{%
+           family={Boutros},
+           familyi={B\bibinitperiod},
+           given={Paul\bibnamedelima C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=89c93f5b230ae0fbf27b91b9ff6870bb}{%
+           family={Bowtell},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima D.},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f376e991682d58bcd3f6d486c1d25fc8}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Hongtu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6aa396b9c7916e3eec93b398e26b1bbf}{%
+           family={Getz},
+           familyi={G\bibinitperiod},
+           given={Gad},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b182dafec1f560eaa65503292aa4af15}{%
+           family={Imielinski},
+           familyi={I\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1e251929d54a7f11c024d2fa3b4d56fb}{%
+           family={Beroukhim},
+           familyi={B\bibinitperiod},
+           given={Rameen},
+           giveni={R\bibinitperiod}}}%
+        {{hash=74155e44a2119c2cdd4f06b98632a76d}{%
+           family={Sahinalp},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi Cenk},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=5d9c7ad1e905d1356d40739f400989f6}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3d6c5b92a1d3f176672a22bdde0c726b}{%
+           family={Peifer},
+           familyi={P\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5a951e031055896c148cd984ec2fcf01}{%
+           family={Markowetz},
+           familyi={M\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=9ad9e55e911c55e03a73c664d5fa3a48}{%
+           family={Mustonen},
+           familyi={M\bibinitperiod},
+           given={Ville},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d0273f1d8e7afeb782688c03a9780dcb}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Ke},
+           giveni={K\bibinitperiod}}}%
+        {{hash=95aa4420e5242ba5bf424b6aaa55763c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Wenyi},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f43fec1fcc0def6205166548a0915119}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={Quaid\bibnamedelima D.},
+           giveni={Q\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=52b2688c3ef082a523e48ab269d960b6}{%
+           family={Spellman},
+           familyi={S\bibinitperiod},
+           given={Paul\bibnamedelima T.},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=1072f3f70073e02459b067dcd9951cd8}{%
+           family={Wedge},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=58e31edf780196569284fcefbe20a46e}{%
+           family={Van\bibnamedelima Loo},
+           familyi={V\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{f92e52b18a9c4e9364083fa970ab87d8}
+      \strng{fullhash}{7e7104b07aac67b9f4b2cf390f1c9751}
+      \strng{bibnamehash}{7e7104b07aac67b9f4b2cf390f1c9751}
+      \strng{authorbibnamehash}{7e7104b07aac67b9f4b2cf390f1c9751}
+      \strng{authornamehash}{f92e52b18a9c4e9364083fa970ab87d8}
+      \strng{authorfullhash}{7e7104b07aac67b9f4b2cf390f1c9751}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{7793}
+      \field{title}{The Evolutionary History of 2,658 Cancers}
+      \field{urlday}{23}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{578}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{122\bibrangedash 128}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/s41586-019-1907-7
+      \endverb
+    \endentry
   \enddatalist
-  \missing{Meyer:CellSys}
 \endrefsection
 \endinput
 

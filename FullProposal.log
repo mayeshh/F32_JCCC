@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  30 APR 2024 10:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  9 MAY 2024 12:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1684,31 +1684,27 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'FullProposal.bbl' found.
-(./FullProposal.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Meyer:CellSys
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(./FullProposal.bbl)
 Package biblatex Info: Reference section=0 on input line 12.
 Package biblatex Info: Reference segment=0 on input line 12.
  (./SpecificAims.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 21.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 25.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 25.
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 28.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 28.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 28.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 28.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 32.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
 ) [1
 
 \openout7 = `FullProposal.ist'.
@@ -1723,30 +1719,30 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 ) [2
 
 ])
-(./Innovation.tex) (./Aim1.tex
+(./Innovation.tex) (./Aim1.tex [3]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Figure.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Figures/Figure.pdf, id=92, 863.21097pt x 591.54399pt>
+<./Figures/Figure.pdf, id=100, 863.21097pt x 591.54399pt>
 File: ./Figures/Figure.pdf Graphic file (type pdf)
 <use ./Figures/Figure.pdf>
-Package pdftex.def Info: ./Figures/Figure.pdf  used on input line 18.
+Package pdftex.def Info: ./Figures/Figure.pdf  used on input line 17.
 (pdftex.def)             Requested size: 216.81pt x 148.57162pt.
 
-Overfull \hbox (1.18628pt too wide) in paragraph at lines 18--18
+Overfull \hbox (1.18628pt too wide) in paragraph at lines 17--17
 [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 18.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 17.
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 18.
+ mdframed uses option nobreak mdframed on input line 17.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 18.
-[3 <./Figures/Figure.pdf>]) (./Aim2.tex) (./Aim3.tex [4]) [5]
+ mdframed uses option nobreak mdframed on input line 17.
+) (./Aim2.tex [4 <./Figures/Figure.pdf>]) (./Aim3.tex [5]) [6]
 No file FullProposal.gls.
 No file FullProposal.acr.
-[6
+[7
 
 ]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 39.
@@ -1757,9 +1753,9 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [7
+ [8
 
-]
+] [9]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
 
@@ -1767,19 +1763,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 41.
 Package rerunfilecheck Info: File `FullProposal.out' has not changed.
-(rerunfilecheck)             Checksum: CB2192B6F49109A3BE64D62C62EE34EF;802.
+(rerunfilecheck)             Checksum: B6035F284849C8C2BB46AE8F92C66CE0;993.
 Package logreq Info: Writing requests to 'FullProposal.run.xml'.
 \openout1 = `FullProposal.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32591 strings out of 492649
- 573684 string characters out of 6129622
- 1190963 words of memory out of 5000000
- 35814 multiletter control sequences out of 15000+600000
- 572265 words of font info for 171 fonts, out of 8000000 for 9000
+ 32612 strings out of 492649
+ 574014 string characters out of 6129622
+ 1191963 words of memory out of 5000000
+ 35817 multiletter control sequences out of 15000+600000
+ 575873 words of font info for 181 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,94p,10402b,1287s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,6n,94p,10402b,1293s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
@@ -1789,12 +1785,13 @@ e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
 8/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018
 /texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2018/t
 exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-di
-st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/font
-s/type1/urw/helvetic/uhvro8a.pfb>
-Output written on FullProposal.pdf (7 pages, 131387 bytes).
+st/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2018/texmf-dist/fon
+ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
+1/urw/helvetic/uhvro8a.pfb>
+Output written on FullProposal.pdf (9 pages, 144663 bytes).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
- 50 named destinations out of 1000 (max. 500000)
- 25166 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 211 PDF objects out of 1000 (max. 8388607)
+ 187 compressed objects within 2 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 25678 words of extra memory for PDF output out of 29859 (max. 10000000)
 
