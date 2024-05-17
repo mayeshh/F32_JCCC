@@ -1,34 +1,33 @@
 %%%%% SPECIFIC AIMS %%%%%%
 % 1 page maximum%
 
-\newcommand{\SpecificAimOne}{Apply the Gerstung \textit{et al.} method to a new dataset of Black Americans with lung cancer to establish a baseline for mutation timing and evolutionary patterns}
-\newcommand{\SpecificAimOneA}{Acquire and preprocess the dataset to align with the requirements of the Gerstung \textit{et al.} method}
-\newcommand{\SpecificAimOneB}{Implement the Gerstung \textit{et al.} method to analyze the mutational and evolutionary landscape specific to Black Americans with NSCLC}
-\newcommand{\SpecificAimOneC}{Identify key mutation timings and evolutionary patterns, and document these as the baseline for subsequent comparison}
+
+\newcommand{\SpecificAimOne}{Apply existing timing methods to a new dataset of Black Americans with NSCLC to establish a baseline}
+\newcommand{\SpecificAimOneA}{Acquire and preprocess the data for analysis}
+\newcommand{\SpecificAimOneB}{Implement the Gerstung \textit{et al.} and GRITIC methods to analyze the mutational and evolutionary landscape specific to Black Americans with NSCLC}
+\newcommand{\SpecificAimOneC}{Identify key mutation timings and evolutionary patterns, and document these as the baseline for subsequent comparison using both methods}
 
 \newcommand{\SpecificAimTwo}{Develop and apply an advanced HMM integrated with machine learning to the same dataset to enhance mutation timing accuracy and uncover complex patterns}
 \newcommand{\SpecificAimTwoA}{Design a hybrid framework that utilizes LSTM for feature extraction that feeds into an HMM to enhance the accuracy of state predictions and mutation timing}
 \newcommand{\SpecificAimTwoB}{Apply the new model to the dataset, focusing on improving the resolution of mutation timings and revealing hidden evolutionary pathways}
-\newcommand{\SpecificAimTwoC}{Compare the outcomes with those obtained from the Gerstung \textit{et al.} method to evaluate improvements and gain insights into model efficacy}
+\newcommand{\SpecificAimTwoC}{Compare the outcomes with those obtained from the Gerstung \textit{et al.} method and the GRITIC method to evaluate improvements and gain insights into model efficacy}
 
 \newcommand{\SpecificAimThree}{Benchmark the integrated HMM and machine learning model and extend the application to other types of cancer for comparative studies and generalizability assessment}
-\newcommand{\SpecificAimThreeA}{Benchmark the new model against established methods using the PCAWG and NSCLC datasets to document performance metrics such as accuracy, computational efficiency, and adaptability}
+\newcommand{\SpecificAimThreeA}{Benchmark the new model against established methods including the GRITIC and Gerstung \textit{et al.} methods using the PCAWG and NSCLC datasets to document performance metrics such as accuracy, computational efficiency, and adaptability}
 \newcommand{\SpecificAimThreeB}{Apply the benchmarked model to additional cancer datasets, focusing on those with significant disparities in diagnosis, treatment, or outcomes, to identify unique and shared mutation timings and evolutionary patterns}
-\newcommand{\SpecificAimThreeC}{Analyze and compare the results across different types of cancer to evaluate the model’s effectiveness and adaptability in various oncological contexts} % not sure about this...
-
-
-
+\newcommand{\SpecificAimThreeC}{Analyze and compare the results across different types of cancer to evaluate the model’s effectiveness and adaptability in various oncological contexts}
 
 \subsection{Specific Aims}
 
-The proposed research initiative aims to deepen our understanding of non-small cell lung cancer 
-(NSCLC) progression in Black Americans, a demographic often underrepresented in cancer research. 
+The proposed research initiative aims to deepen our understanding of NSCLC progression in Black Americans, 
+a demographic often underrepresented in cancer research. 
 By implementing and critically evaluating two distinct computational frameworks — 
-the established methods from Gerstung \textit{et al.} and a novel approach integrating a Hidden Markov Model (HMM) with machine learning — 
+the established methods from Gerstung \textit{et al.}, and the new GRITIC tool as described in the Baker \textit{et al.}, 
+and a novel approach integrating a HMM with machine learning — 
 the proposal sets out to develop a comprehensive method to determine mutation timing and evolutionary patterns in NSCLC.
 
 \paragraph*{Aim 1: \SpecificAimOne} 
-\emph{Hypothesis: Applying the Gerstung \textit{et al.} method to a new dataset will provide foundational insights into the mutation and evolutionary dynamics of NSCLC in Black Americans.}
+\emph{Hypothesis: Applying the Gerstung \textit{et al.} method and the GRITIC method to a new dataset will provide foundational insights into the mutation and evolutionary dynamics of NSCLC in Black Americans.}
 
 \begin{itemize}[noitemsep]
     \item \SpecificAimOneA
@@ -37,7 +36,7 @@ the proposal sets out to develop a comprehensive method to determine mutation ti
 \end{itemize}
 
 \paragraph*{Aim 2: \SpecificAimTwo} 
-\emph{Hypothesis: An integrated HMM-machine learning model will reveal more detailed and accurate patterns of mutation timing and evolution in NSCLC, surpassing traditional methods.}
+\emph{Hypothesis: An integrated HMM-machine learning model will reveal more detailed and accurate patterns of mutation timing and evolution in NSCLC, surpassing traditional and newly applied methods.}
 
 \begin{itemize}[noitemsep]
     \item \SpecificAimTwoA
@@ -46,7 +45,7 @@ the proposal sets out to develop a comprehensive method to determine mutation ti
 \end{itemize}
 
 \paragraph*{Aim 3: \SpecificAimThree} 
-\emph{Hypothesis: Benchmarking the integrated HMM-machine learning model against established methods will demonstrate its broad applicability and provide insights into the general mechanisms of cancer evolution, while establishing its comparative advantage over existing models.}
+\emph{Hypothesis: Benchmarking the integrated HMM and machine learning model against established methods including the GRITIC method will demonstrate its broad applicability and provide insights into the general mechanisms of cancer evolution, while establishing its comparative advantage over existing models.}
 
 \begin{itemize}[noitemsep]
     \item \SpecificAimThreeA
@@ -62,3 +61,68 @@ and to lay the groundwork for tailored therapeutic strategies that are finely ad
 with special attention to the unique needs of Black communities. 
 Ultimately, this research will catalyze significant improvements in early cancer detection, thereby transforming patient care and outcomes.
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%\newcommand{\SpecificAimOne}{Apply the Gerstung \textit{et al.} method to a new dataset of Black Americans with lung cancer to establish a baseline for mutation timing and evolutionary patterns}
+%\newcommand{\SpecificAimOneA}{Acquire and preprocess the dataset to align with the requirements of the Gerstung \textit{et al.} method}
+%\newcommand{\SpecificAimOneB}{Implement the Gerstung \textit{et al.} method to analyze the mutational and evolutionary landscape specific to Black Americans with NSCLC}
+%\newcommand{\SpecificAimOneC}{Identify key mutation timings and evolutionary patterns, and document these as the baseline for subsequent comparison}
+%
+%\newcommand{\SpecificAimTwo}{Develop and apply an advanced HMM integrated with machine learning to the same dataset to enhance mutation timing accuracy and uncover complex patterns}
+%\newcommand{\SpecificAimTwoA}{Design a hybrid framework that utilizes LSTM for feature extraction that feeds into an HMM to enhance the accuracy of state predictions and mutation timing}
+%\newcommand{\SpecificAimTwoB}{Apply the new model to the dataset, focusing on improving the resolution of mutation timings and revealing hidden evolutionary pathways}
+%\newcommand{\SpecificAimTwoC}{Compare the outcomes with those obtained from the Gerstung \textit{et al.} method to evaluate improvements and gain insights into model efficacy}
+%
+%\newcommand{\SpecificAimThree}{Benchmark the integrated HMM and machine learning model and extend the application to other types of cancer for comparative studies and generalizability assessment}
+%\newcommand{\SpecificAimThreeA}{Benchmark the new model against established methods using the PCAWG and NSCLC datasets to document performance metrics such as accuracy, computational efficiency, and adaptability}
+%\newcommand{\SpecificAimThreeB}{Apply the benchmarked model to additional cancer datasets, focusing on those with significant disparities in diagnosis, treatment, or outcomes, to identify unique and shared mutation timings and evolutionary patterns}
+%\newcommand{\SpecificAimThreeC}{Analyze and compare the results across different types of cancer to evaluate the model’s effectiveness and adaptability in various oncological contexts} % not sure about this...
+%
+%
+%
+%
+%\subsection{Specific Aims}
+%
+%The proposed research initiative aims to deepen our understanding of non-small cell lung cancer 
+%(NSCLC) progression in Black Americans, a demographic often underrepresented in cancer research. 
+%By implementing and critically evaluating two distinct computational frameworks — 
+%the established methods from Gerstung \textit{et al.} and a novel approach integrating a Hidden Markov Model (HMM) with machine learning — 
+%the proposal sets out to develop a comprehensive method to determine mutation timing and evolutionary patterns in NSCLC.
+%
+%\paragraph*{Aim 1: \SpecificAimOne} 
+%\emph{Hypothesis: Applying the Gerstung \textit{et al.} method to a new dataset will provide foundational insights into the mutation and evolutionary dynamics of NSCLC in Black Americans.}
+%
+%\begin{itemize}[noitemsep]
+%    \item \SpecificAimOneA
+%    \item \SpecificAimOneB
+%    \item \SpecificAimOneC
+%\end{itemize}
+%
+%\paragraph*{Aim 2: \SpecificAimTwo} 
+%\emph{Hypothesis: An integrated HMM-machine learning model will reveal more detailed and accurate patterns of mutation timing and evolution in NSCLC, surpassing traditional methods.}
+%
+%\begin{itemize}[noitemsep]
+%    \item \SpecificAimTwoA
+%    \item \SpecificAimTwoB
+%    \item \SpecificAimTwoC
+%\end{itemize}
+%
+%\paragraph*{Aim 3: \SpecificAimThree} 
+%\emph{Hypothesis: Benchmarking the integrated HMM-machine learning model against established methods will demonstrate its broad applicability and provide insights into the general mechanisms of cancer evolution, while establishing its comparative advantage over existing models.}
+%
+%\begin{itemize}[noitemsep]
+%    \item \SpecificAimThreeA
+%    \item \SpecificAimThreeB
+%    \item \SpecificAimThreeC
+%\end{itemize}
+%
+%This project aims to revolutionize our understanding of NSCLC progression through cutting-edge advancements in modeling cancer evolution. 
+%By fulfilling these aims, the initiative is poised to bridge critical knowledge gaps in oncology, 
+%providing new analytical tools that map the evolution of cancer with unmatched precision. 
+%These advancements are expected to enhance the timing and specificity of treatment interventions 
+%and to lay the groundwork for tailored therapeutic strategies that are finely adjusted to the genetic and environmental profiles of individual patients, 
+%with special attention to the unique needs of Black communities. 
+%Ultimately, this research will catalyze significant improvements in early cancer detection, thereby transforming patient care and outcomes.
+%

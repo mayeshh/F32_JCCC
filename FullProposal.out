@@ -3,7 +3,7 @@
 \BOOKMARK [2][-]{subsection*.3}{Significance}{section*.2}% 3
 \BOOKMARK [2][-]{subsection*.9}{Innovation}{section*.2}% 4
 \BOOKMARK [2][-]{subsection*.10}{Approach}{section*.2}% 5
-\BOOKMARK [3][-]{subsubsection*.11}{Aim 1: Apply the Gerstung et al. method to a new dataset of Black Americans with lung cancer to establish a baseline for mutation timing and evolutionary patterns}{subsection*.10}% 6
-\BOOKMARK [3][-]{subsubsection*.18}{Aim 2: Develop and apply an advanced HMM integrated with machine learning to the same dataset to enhance mutation timing accuracy and uncover complex patterns}{subsection*.10}% 7
-\BOOKMARK [3][-]{subsubsection*.24}{Aim 3: Benchmark the integrated HMM and machine learning model and extend the application to other types of cancer for comparative studies and generalizability assessment}{subsection*.10}% 8
-\BOOKMARK [1][-]{paragraph*.29}{References}{}% 9
+\BOOKMARK [3][-]{subsubsection*.11}{Aim 1: Apply existing timing methods to a new dataset of Black Americans with NSCLC to establish a baseline}{subsection*.10}% 6
+\BOOKMARK [3][-]{subsubsection*.20}{Aim 2: Develop and apply an advanced HMM integrated with machine learning to the same dataset to enhance mutation timing accuracy and uncover complex patterns}{subsection*.10}% 7
+\BOOKMARK [3][-]{subsubsection*.27}{Aim 3: Benchmark the integrated HMM and machine learning model and extend the application to other types of cancer for comparative studies and generalizability assessment}{subsection*.10}% 8
+\BOOKMARK [1][-]{paragraph*.32}{References}{}% 9

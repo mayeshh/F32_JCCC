@@ -56,43 +56,48 @@ Another major shortcoming is the lack of integration of social determinants of h
 such as obesity, diabetes, and chronic inflammatory conditions, which may exacerbate susceptibility to cancer.
 
 \paragraph{Harnessing Advanced Computational Models for Precise Mutation Timing and Cancer Progression Analysis}
-% current methods
-In Gerstung \textit{et al.}~\cite{gerstung_evolutionary_2020}, commonly used methods for analyzing cancer progression and mutation timing 
-typically involve statistical models like Cox proportional hazards models and logistic regression. 
-These models are used to identify correlations and predict outcomes based on well-defined variables. 
-They work effectively for deriving broad insights from large datasets by statistically analyzing 
-the risk factors and progression indicators, offering 
-clear, interpretable results that are crucial for clinical decision-making and epidemiological studies. 
-These methods provide a solid foundation for understanding the dynamics of disease but may not capture the 
-more complex and nuanced interactions seen in genomic data.
 
-% Eplain HMM
-A Hidden Markov Model (HMM) is an ideal approach for modeling time-series data where the states of the system are not directly observable, 
-\textit{i.e.}, hidden, but can be inferred through observable events. 
-This statistical model captures the probabilities of transitions between hidden states based on observed data, 
-making it highly effective for sequential prediction tasks such as decoding genetic sequences or understanding disease progression. 
-HMMs excel in handling the uncertainties and variabilities inherent in sparse biological data, 
-allowing them to robustly model complex stochastic processes like mutation timing in cancer development.
+% Detailed Methods from Gerstung et al.
+Gerstung \textit{et al.}, applies a suite of sophisticated computational tools including 
+cancerTiming, MutationTimeR, PhylogicNDT SinglePatientTiming, and PhylogicNDT LeagueModel, 
+to analyze cancer progression and mutation timing. 
+Another recent advancement in genomic analysis is the Gain Route Identification and Timing In Cancer (GRITIC) method, 
+detailed in Baker \textit{et al.}
+This method employs advanced computational techniques to analyze complex genetic variations 
+and is particularly adept at handling large-scale genomic datasets. 
+The strength of GRITIC lies in its ability to time sequential copy number gains with high accuracy.
+However, the sophisticated Markov Chain Monte Carlo (MCMC) approach becomes computationally intractable 
+for large copy numbers states ($\geq 9$).~\cite{baker_history_2023}
+
+These methods utilize advanced probabilistic and statistical techniques to analyze mutational landscapes 
+and identify evolutionary patterns in cancer genomes.
+However, these complex Bayesian inferences and MCMC approaches can be computationally intensive, 
+limiting their use in large-scale or real-time scenarios.
+In addition, tools such as CancerTiming, MutationTimeR, and GRITIC focus on estimating the timing of clonal chromosomal gains and mutations 
+but often require assumptions about mutation rates and copy number states that may not hold in all scenarios. 
+
+% Explain HMM
+Hidden Markov Models (HMMs) are useful for modeling time-series data where the states of the system are hidden 
+and must be inferred through observable events. 
+HMMs capture transitions between hidden states based on observed data, 
+making them highly effective for sequential prediction tasks such as understanding disease progression.
 
 % Explain what an LSTM is 
-A Long Short-Term Memory (LSTM) network is a type of recurrent neural network (RNN) 
-designed to overcome the challenges of learning from data sequences over extended periods. 
-Its unique architecture, featuring input, output, and forget gates, allows it to maintain long-term dependencies 
-and remember important information, making it highly effective for complex tasks like genomic data analysis 
-and disease progression modeling. 
-This capability enables LSTMs to accurately predict future events based on historical and current data, 
-making them a good choice for tracking mutation timings in cancer cells.
+Long Short-Term Memory (LSTM) networks are a specialized type of neural network that are 
+highly effective in processing and retaining information across lengthy data sequences.
+This feature is particularly well-suited for modeling the complex evolutionary trajectories that occur in cancer. 
+This allows the LSTM to dynamically learn from evolving genetic sequences and adapt to new patterns as they emerge.
 
 % Why the LSTM-HMM approach is better than current methods
-The LSTM-HMM hybrid approach offers a significant advancement over current methods used in cancer progression analysis 
-by combining the deep learning capabilities of LSTMs with the robust probabilistic modeling of the classical HMM. 
-While traditional methods like logistic regression or Cox proportional hazards models provide valuable insights from statistical correlations, 
-they often fail to capture complex, non-linear interactions and long-term dependencies in genomic data. 
-LSTMs excel at processing long sequences and retaining information over time, 
-making them ideal for identifying subtle patterns and temporal dynamics in disease progression. 
-When integrated with HMMs, which effectively model the hidden states and transition probabilities of biological processes, 
-the hybrid approach enhances predictive accuracy and provides a more nuanced understanding of mutation timings and disease evolution. 
-The LSTM-HMM provides a more dynamic analysis, enabling precise identification of tumor progression.
+Combining an LSTM with an HMM will enable dynamic modeling capabilities from LSTMs with the probabilistic modeling strengths of HMMs, 
+with the potential to significantly improve cancer evolution studies. 
+LSTMs provide a deeper and more nuanced understanding of long-term dependencies and non-linear interactions in genomic sequences, 
+offering transformative improvements in the timing and ordering of mutations during cancer progression.
+When integrated with HMMs, which effectively model hidden states and transition probabilities, 
+this approach allows for a more dynamic analysis that can adapt to new data, enhance prediction accuracy, 
+and uncover hidden evolutionary pathways in cancer progression. 
+This makes the LSTM-HMM model particularly powerful for predicting disease trajectories and improving treatment strategies, 
+offering a superior alternative to traditional and current computational methods used in cancer genomics.
 
 \paragraph{Potential for Transformative Impact}
 
@@ -116,102 +121,9 @@ that contribute to the excessive lung cancer burden observed in Black communitie
 By correlating precise air pollution exposure data with epidemiological cohorts and molecular tumor profiling from Black NSCLC patients, 
 the research will forge a comprehensive model of how environmental toxins catalyze lung carcinogenesis 
 amidst the backdrop of social and biological vulnerabilities in this underserved population. 
-We expect insights derived from this innovative approach to transform our understanding of the 
-role air pollution plays in NSCLC etiology among Black Americans 
-and pave the way for new targeted prevention, early detection, and treatment strategies. 
+We anticipate that this innovative approach will provide new insights into the role of air pollution in 
+the development of NSCLC among Black Americans. 
+This will help us develop targeted prevention, early detection, and treatment strategies.
 This is increasingly vital as, despite overall declining lung cancer rates, 
 the incidence of NSCLC among women of color is rising in LA and similar urban areas. %cite?
 
-
-%\paragraph{Air Pollution and Lung Cancer Risk in LA County}
-%
-%
-%Akin to tobacco smoking, exposure to the complex mixture of air pollution, 
-%particularly fine particulate matter (PM$_{2.5}$) and nitric oxide (NO), 
-%poses a major risk factor for developing lung cancer.
-%In heavily polluted cities like Los Angeles, exposure to these pollutants significantly increases the risk of developing lung cancer. 
-%In 2014, the Nurse's Health Study found that living within 200 meters of a highway and a 10 $\mu g/m^{3}$ increase in PM$_{2.5}$ levels 
-%were associated with an increased risk of lung cancer (HR = 1.57; 95\% CI: 1.26, 1.77)~\cite{x}. 
-%Furthermore, a 2019 meta-analysis estimated that a 10 $\mu g/m^{3}$ increase in PM$_{2.5}$ exposure in Europe and North America increased lung cancer risk by 25\%~\cite{x}.
-%
-%
-%\cbstart % adds a vertical line on left side of text
-%\lipsum[3-3]
-%\cbend
-%
-%\paragraph{Addressing Lung Cancer Inequities in Blacks}
-%
-%
-%Although African Americans/Blacks (Blacks) have lower smoking rates compared to non-Hispanic Whites, 
-%they experience significantly higher lung cancer incidence and mortality rates, especially among men.
-%This disparity is striking, as Blacks tend to initiate smoking later in life and consume fewer cigarettes 
-%compared to their White counterparts. 
-%
-% AA/Black women, again, despite smoking fewer cigarettes, have the same or higher incidence of lung cancer as White women. 
-%Current lung cancer screening guidelines based on pack-years and age fail to adequately identify Blacks at risk.
-%Blacks are diagnosed with lung cancer at a significantly younger age than Whites, 
-%often before reaching the screening threshold of 30 pack-years or age 55~\cite{x}. 
-%The molecular drivers underlying these aggressive, early-onset lung cancers in the Black population remain unclear. 
-%However, disparities in environmental exposures, particularly air pollution, are suspected to play a role~\cite{x}. 
-%Evidence shows that Blacks are consistently exposed to significantly higher levels of PM$_{2.5}$ and NO compared to non-Hispanic Whites~\cite{x}. % very similar to the original
-%This study will utilize a multi-regional cohort to identify the specific molecular connections 
-%between air pollutants and lung cancer in Blacks, regardless of their smoking status.
-%
-%The exposure to elevated levels of PM$_{2.5}$ and NO can be attributed to historical practices of segregation, redlining, 
-%and the deliberate placement of highways, industrial buildings, and waste facilities in predominantly Black neighborhoods~\cite{x}. 
-%This has the effects of relegating Blacks to neighborhoods without trees and an abundance of heat-trapping pavement~\cite{x}.
-%These inequalities in the environment are directly reflected in the observed lung cancer disparities between Blacks and Whites.
-%
-%\paragraph{Characterization of Environmental Exposure}
-%
-%
-%Outdoor air pollution, including PM$_{2.5}$, is classified as a Group 1 carcinogen by the International Agency for Research on Cancer (IARC)~\cite{x}. 
-%Past studies demonstrate a clear link between residing near major roadways and an elevated risk of developing lung cancer~\cite{x}. 
-%However, the precise molecular pathways through which air pollutants initiate and promote the progression of lung malignancies remain poorly understood~\cite{x}.
-%
-%Exhaust from combustion engines releases a cocktail of carcinogenic compounds into the atmosphere near major roadways. 
-%These pollutants include polycyclic aromatic hydrocarbons (PAHs), nitrogen oxides, and toxic heavy metals such as arsenic, nickel, and lead.~\cite{x} 
-%Previous studies have attempted to map air pollution levels using census tract data.
-%However, these methods only detect a limited subset of pollutants, failing to capture the full complexity of roadway emissions. 
-%Moreover, existing research does not account for how rising global temperatures associated with climate change 
-%may alter the chemical composition and carcinogenic potency of air pollution over time. 
-%Another major shortcoming of these studies is the lack of integration of social determinants of health, such as obesity, diabetes, 
-%and chronic inflammatory conditions, which may exacerbate susceptibility to cancer. 
-%Accounting for these factors is crucial for accurately assessing cancer risk from exposure to roadway air pollution.
-%
-%This study will employ advanced geospatial methods to precisely quantify individual exposures to air pollutants. 
-%Crucially, it will integrate environmental exposure data with social and biological factors that modulate disease susceptibility. 
-%The goal is to develop a comprehensive model elucidating how environmental drivers interact with human health parameters 
-%to initiate and promote non-small cell lung cancer (NSCLC) development and progression. 
-%This multidisciplinary approach, combining external exposure assessment with internal risk factors, 
-%will provide novel mechanistic insights into the environmental carcinogenesis of lung cancer.
-%
-% 
-%\paragraph{Identifying Molecular Drivers of Lung Carcinogenesis}
-% 
-% 
-%The vast majority of environmental cohort studies identify important associations but are limited in their ability to determine molecular causation. 
-%Air pollution contains complex elements, and individuals often have complex exposures to pollution, and secondhand smoke, or may have lived in multiple locations. 
-%Consequently, association studies are becoming increasingly inadequate. Recent advances have made it possible 
-%to identify distinct causal molecular signatures within a tumor and pinpoint the temporal evolution of these signatures during carcinogenesis. 
-%Specific molecular signatures have been identified that result from specific environmental exposures or mutagens, ranging from aromatic amines and tobacco smoke to heavy metals. 
-%Yu and colleagues found the mutation spectrum of air pollution-related lung cancers and provided evidence of an air pollution exposure-genomic mutation relationship on a large scale~\cite{x}. 
-%Whole-genome sequencing (WGS) of human tumors has revealed distinct mutation patterns linked to specific exposures. 
-%These mutational signatures permit further exploration of the roles of environmental agents in cancer etiology and underscore how DNA is directly vulnerable to environmental agents. 
-%Furthermore, we can use these tools to measure when during tumor development these exposures exerted their mutagenic effects~\cite{x}. 
-%In this study, we aim to use these molecular tools to precisely identify causal environmental exposures that promote initiation, progression, and aggressive NSCLC biology.
-% 
-%%%%%%%%%%%%%%%%
-% 
-%%% copy-paste from grant - placeholder, need to rewrite
-%
-%The vast majority of environmental cohort studies, identify important associations but  are limited because they cannot determine molecular causation. 
-%Air pollution contains complex elements; individuals frequently have complex exposures to pollution and second-hand smoke or may have lived in multiple locations. 
-%Consequently, association studies are becoming increasingly inadequate. 
-%Recently, it has become possible to identify distinct causal molecular signatures within a tumor and pinpoint the temporal evolution of these signatures during carcinogenesis. 
-%Specific molecular signatures have been identified that result from specific environmental exposures or mutagens, ranging from aromatic amines, and tobacco smoke, to heavy metals. 
-%Yu and colleaguesR found the mutation spectrum of air pollution-related lung cancers and provided evidence of an air pollution exposure–genomic mutation relationship on a large scale. 
-%Whole-genome sequencing (WGS) of human tumors has revealed distinct mutation patterns linked to specific exposures. 
-%These mutational signatures permit further exploration of the roles of environmental agents in cancer etiology and underscores how DNA is directly vulnerable to environmental agents. 
-%Further, we can use these tools to measure when during tumor development these exposures exerted their mutagenic effects (Gerstung 2020). 
-%We aim to use these molecular tools to precisely identify causal environmental exposures that promote initiation, progression, and aggressive NSCLC biology. Current lung cancer screening guidelines based on pack-years and age fail to adequately identify African Americans/Blacks at riay~\cite{xThe LSTM-HMM provides a more dynamic analysis, enabling precise identification of tumor progression.

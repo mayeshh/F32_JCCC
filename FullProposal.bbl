@@ -1388,6 +1388,104 @@
       \verb 10.1038/s41586-019-1907-7
       \endverb
     \endentry
+    \entry{baker_history_2023}{misc}{}
+      \name{author}{13}{}{%
+        {{hash=75e1106301cd45a55c604edac731c45f}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Toby\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=04d1d010e8638e01e88af234a436866f}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Siqi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f9e722e5e963f3df86c9a811246354d0}{%
+           family={Lesluyes},
+           familyi={L\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+        {{hash=580a6aeb4bb1dd1c6cc21799a6f2574b}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Haixi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3e202d6c43a2a6b996ef0ce8e8814f9f}{%
+           family={Verfaillie},
+           familyi={V\bibinitperiod},
+           given={Annelien},
+           giveni={A\bibinitperiod}}}%
+        {{hash=eafe87db1e5e254e0eb01b437ab69247}{%
+           family={Dentro},
+           familyi={D\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=700d0a8b2163e7ebc1225279ad71d16a}{%
+           family={Lynch},
+           familyi={L\bibinitperiod},
+           given={Andrew\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=470d354f6db36c2d1d3ea7e2bde0677e}{%
+           family={Bowes},
+           familyi={B\bibinitperiod},
+           given={Amy\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=fc62745b6719144f76c20e5538280863}{%
+           family={Pillay},
+           familyi={P\bibinitperiod},
+           given={Nischalan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3b5d3a6ac8f9da359c0f7d18b47de1b0}{%
+           family={Flanagan},
+           familyi={F\bibinitperiod},
+           given={Adrienne\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=41ddb60dd242de6b2d07fa4624f293ee}{%
+           family={Swanton},
+           familyi={S\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+        {{hash=bccc2427a1df2f073e440bfa62ef806f}{%
+           family={Tarabichi},
+           familyi={T\bibinitperiod},
+           given={Maxime},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fc4f685a85c6409deead82a4e0a1f199}{%
+           family={Loo},
+           familyi={L\bibinitperiod},
+           given={Peter\bibnamedelima Van},
+           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {bioRxiv}%
+      }
+      \strng{namehash}{fc20db9fd6049481a1ce205bd44d7350}
+      \strng{fullhash}{449d1b89973d32267a79142154027a4b}
+      \strng{bibnamehash}{449d1b89973d32267a79142154027a4b}
+      \strng{authorbibnamehash}{449d1b89973d32267a79142154027a4b}
+      \strng{authornamehash}{fc20db9fd6049481a1ce205bd44d7350}
+      \strng{authorfullhash}{449d1b89973d32267a79142154027a4b}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{New Results}
+      \field{eprintclass}{New Results}
+      \field{eprinttype}{bioRxiv}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{The History of Chromosomal Instability in Genome Doubled Tumors}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{2023.10.22.563273}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1101/2023.10.22.563273
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

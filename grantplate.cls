@@ -4,7 +4,8 @@
 \PassOptionsToClass{11pt}{article}
 \LoadClassWithOptions{article}
 
-\RequirePackage{enumitem, wrapfig, array, adjustbox, color, setspace, textgreek, fancyhdr, microtype}
+\RequirePackage{enumitem, wrapfig, array, adjustbox, color, setspace, textgreek, fancyhdr, microtype} 
+
 
 % Change bar for change marks
 \RequirePackage[pdftex, leftbars, xcolor]{changebar}
@@ -14,9 +15,10 @@
 
 \RequirePackage{helvet}
 \RequirePackage[T1]{fontenc}
-\RequirePackage[labelfont=bf,justification=centering,font=small,skip=0pt]{caption}
+\RequirePackage[labelfont=bf,justification=raggedright,font=small,skip=0pt]{caption}
 \RequirePackage[compact]{titlesec}
 \RequirePackage[acronym, style=index]{glossaries}
+
 
 % Allows links to be included for references optionally
 \RequirePackage[colorlinks=false, pdfborder={0 0 0}]{hyperref}

@@ -2,6 +2,14 @@
 
 \paragraph{Rationale}
 
+ \begin{wrapfigure}{R}{4.05in}
+  \begin{mdframed}
+  \includegraphics[width=4.0in]{./Figures/LSTM-HMM_diagram.png}
+  \caption{LSTM-HMM architecture. Outputs from the LSTM network are used to inititate the HMM.}
+  \label{LSTM-HMM_diagram}
+  \end{mdframed}
+\end{wrapfigure}
+
 In the realm of cancer research, particularly in studies like those conducted by Gerstung \textit{et al.}, 
 traditional methods for modeling mutation timings often rely on statistical models.
 These models typically encompass a variety of approaches ranging from regression-based 
@@ -40,6 +48,7 @@ This step is expected to refine the HMM's ability to map observed data to the co
 Additionally, the feature vectors derived from the LSTM will serve as observations in the HMM. 
 This integration enhances the HMM’s capability to accurately model transitions between different disease states, 
 leveraging the detailed context provided by the LSTM to improve both the accuracy and reliability of the disease progression model.
+
 
 \paragraph{2.2. \SpecificAimTwoB}
 
