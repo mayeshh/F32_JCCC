@@ -1993,8 +1993,11 @@
     <bcf:citekey order="13">gowda_ambient_2019</bcf:citekey>
     <bcf:citekey order="14">yu_characterization_2015</bcf:citekey>
     <bcf:citekey order="15">baker_history_2023</bcf:citekey>
-    <bcf:citekey order="16">gerstung_evolutionary_2020</bcf:citekey>
+    <bcf:citekey order="16">koboldt_best_2020-1</bcf:citekey>
+    <bcf:citekey order="17">koboldt_best_2020-1</bcf:citekey>
     <bcf:citekey order="17">gerstung_evolutionary_2020</bcf:citekey>
+    <bcf:citekey order="18">jaffe_practical_2015</bcf:citekey>
+    <bcf:citekey order="19">gerstung_evolutionary_2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

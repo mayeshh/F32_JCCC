@@ -19,6 +19,8 @@ In 2014, the Nurse's Health Study found that living within 200 meters of a highw
 levels were associated with an increased risk of lung cancer (HR = 1.57; 95\% CI: 1.26, 1.77).~\cite{puett_particulate_2014} 
 Furthermore, a 2019 meta-analysis estimated that a $10~\mu g/m^{3}$ increase in PM$_{2.5}$ exposure in Europe and North America increased lung cancer risk by 25\%.~\cite{huang_ambient_2021}
 
+\vspace{1em}
+\noindent
 Despite the clear evidence linking air pollution exposure to elevated lung cancer risk, 
 the precise molecular mechanisms by which these complex pollutant mixtures initiate and promote NSCLC remain poorly understood, 
 representing a critical knowledge gap. 
@@ -32,6 +34,8 @@ they experience significantly higher lung cancer incidence and mortality rates, 
 This disparity is striking, as Black Americans tend to initiate smoking later in life and consume fewer cigarettes compared to their White counterparts.~\cite{thaiparambil_abstract_2023,hede_drilling_2010} 
 Black women, despite smoking fewer cigarettes, have the same or higher incidence of lung cancer as White women. %~\cite{} ???
 
+\vspace{1em}
+\noindent
 Current lung cancer screening guidelines based on pack-years and age~\cite{landy_absolute_2024} fail to adequately identify Black Americans at risk.
 Black Americans are diagnosed with lung cancer at a significantly younger age than Whites, often before reaching the screening threshold of 30 pack-years or age 55.~\cite{meza_evaluation_2021} 
 The molecular drivers underlying these aggressive, early-onset lung cancers in the Black population remain unclear.
@@ -40,6 +44,8 @@ Evidence shows that Black Americans are consistently exposed to significantly hi
 This study will utilize a multi-regional cohort of non-smokers, former smokers, and smokers,
 to identify the molecular connections between air pollutants and lung cancer in Black Americans.
 
+\vspace{1em}
+\noindent
 Furthermore, existing studies do not account for how social determinants of health in Black Americans may modulate susceptibility to cancers.~\cite{valencia_interrogating_2022} 
 Addressing this gap is crucial for accurately assessing risk and developing prevention strategies in diverse populations.
 
@@ -57,47 +63,52 @@ such as obesity, diabetes, and chronic inflammatory conditions, which may exacer
 
 \paragraph{Harnessing Advanced Computational Models for Precise Mutation Timing and Cancer Progression Analysis}
 
-% Detailed Methods from Gerstung et al.
-Gerstung \textit{et al.}, applies a suite of sophisticated computational tools including 
-cancerTiming, MutationTimeR, PhylogicNDT SinglePatientTiming, and PhylogicNDT LeagueModel, 
+Gerstung \textit{et al.} apply a suite of sophisticated computational tools including 
+\texttt{cancerTiming}, \texttt{MutationTimeR}, \texttt{PhylogicNDT SinglePatientTiming}, and \texttt{PhylogicNDT LeagueModel}, 
 to analyze cancer progression and mutation timing. 
-Another recent advancement in genomic analysis is the Gain Route Identification and Timing In Cancer (GRITIC) method, 
-detailed in Baker \textit{et al.}
-This method employs advanced computational techniques to analyze complex genetic variations 
-and is particularly adept at handling large-scale genomic datasets. 
-The strength of GRITIC lies in its ability to time sequential copy number gains with high accuracy.
-However, the sophisticated Markov Chain Monte Carlo (MCMC) approach becomes computationally intractable 
-for large copy numbers states ($\geq 9$).~\cite{baker_history_2023}
+Another recent advancement in genomic analysis is \texttt{GRITIC}, detailed in Baker \textit{et al.}
+This method utilizes advanced computational techniques to precisely time copy number gains in clonal populations. 
+The strength of \texttt{GRITIC} lies in its ability to accurately determine the sequential timing of these copy number gains.
 
-These methods utilize advanced probabilistic and statistical techniques to analyze mutational landscapes 
-and identify evolutionary patterns in cancer genomes.
-However, these complex Bayesian inferences and MCMC approaches can be computationally intensive, 
-limiting their use in large-scale or real-time scenarios.
-In addition, tools such as CancerTiming, MutationTimeR, and GRITIC focus on estimating the timing of clonal chromosomal gains and mutations 
-but often require assumptions about mutation rates and copy number states that may not hold in all scenarios. 
+\vspace{1em}
+\noindent
+However, \texttt{GRITIC} and similar methods face limitations, such as the computational intensity of Bayesian inferences 
+and Markov Chain Monte Carlo (MCMC) approaches, which restrict their application in large-scale or real-time scenarios. 
+Additionally, they often require assumptions about mutation rates and copy number states that may not hold in all scenarios.
+Currently, \texttt{GRITIC} requires DNA segments to have at least 20 single nucleotide variants (SNVs), 
+and does not extend to systems with high copy number ($\geq~9$).~\cite{baker_history_2023}
 
-% Explain HMM
-Hidden Markov Models (HMMs) are useful for modeling time-series data where the states of the system are hidden 
-and must be inferred through observable events. 
-HMMs capture transitions between hidden states based on observed data, 
-making them highly effective for sequential prediction tasks such as understanding disease progression.
+\vspace{1em}
+\noindent
+Our proposed research aims to build upon and enhance the current \texttt{GRITIC} methodology by addressing these limitations. 
+We will develop improved mutational signature activity timing approaches with higher resolution, 
+enabling more precise tracking of mutagenic exposures over clonal evolutionary time. 
+These refined timing methods will serve as priors for developing more accurate driver mutation timing approaches. 
+By integrating temporally varying distributions of mutation signatures, 
+we will significantly enhance the precision of mutation timing and the temporal ordering of key driver mutations.
 
-% Explain what an LSTM is 
-Long Short-Term Memory (LSTM) networks are a specialized type of neural network that are 
-highly effective in processing and retaining information across lengthy data sequences.
-This feature is particularly well-suited for modeling the complex evolutionary trajectories that occur in cancer. 
-This allows the LSTM to dynamically learn from evolving genetic sequences and adapt to new patterns as they emerge.
+%Our proposed research builds on the current \texttt{GRITIC} methodology by addressing these limitations and extending its capabilities. 
+%First, we will develop mutational signature activity timing approaches with improved resolution. 
+%This involves refining the timing of mutational signature activities, allowing us to track mutagenic exposures over clonal time with improved resolution. 
+%The categorical approach of previous methods limited their resolution, and integrating our enhanced GRITIC model will improve these efforts. 
+%We will calculate the proportion of SNVs at each clonal mutation multiplicity state within a gained segment to time individual copy number gains along mutation time.
+%Next, we will leverage these refined mutational signature timing methods as priors to develop more accurate driver mutation timing approaches. 
+%By integrating temporally varying distributions of the mutation signatures identified in the first aim, 
+%we will extend GRITIC's capabilities to estimate the proportions of mutation signatures as they change over mutation time. 
+%This joint estimation will improve the precision of both mutation timing and the temporal order of key driver mutations, 
+%including SNVs that result in a gain or loss of function and oncogene amplifications.
+%Additionally, we will develop a realistic statistical simulation framework to validate these novel approaches. 
+%Using simulated, ground-truth tumor genomes with time-varied mutation signature proportions, 
+%we will ensure our methods are robust and accurate. 
+%These simulations will allow us to assess the performance of our enhanced models under various conditions and scenarios, 
+%providing a comprehensive validation of their effectiveness.
 
-% Why the LSTM-HMM approach is better than current methods
-Combining an LSTM with an HMM will enable dynamic modeling capabilities from LSTMs with the probabilistic modeling strengths of HMMs, 
-with the potential to significantly improve cancer evolution studies. 
-LSTMs provide a deeper and more nuanced understanding of long-term dependencies and non-linear interactions in genomic sequences, 
-offering transformative improvements in the timing and ordering of mutations during cancer progression.
-When integrated with HMMs, which effectively model hidden states and transition probabilities, 
-this approach allows for a more dynamic analysis that can adapt to new data, enhance prediction accuracy, 
-and uncover hidden evolutionary pathways in cancer progression. 
-This makes the LSTM-HMM model particularly powerful for predicting disease trajectories and improving treatment strategies, 
-offering a superior alternative to traditional and current computational methods used in cancer genomics.
+\vspace{1em}
+\noindent
+Additionally, we are committed to creating open-source, user-friendly software tools to disseminate these advanced methodologies to the broader research community. 
+By making these tools accessible, we aim to promote widespread adoption and foster collaborative efforts to advance cancer research.
+Through these improvements, our research will overcome the current limitations of \texttt{GRITIC} and similar methods, 
+providing more precise and scalable approaches to studying cancer evolution and the impact of environmental factors on mutational processes.
 
 \paragraph{Potential for Transformative Impact}
 
@@ -113,8 +124,8 @@ obesity, diabetes, chronic inflammation, and other risk factors prevalent in Bla
 the goal is to develop a comprehensive analysis that elucidates how environmental drivers interact synergistically with 
 social and biological parameters to initiate and promote aggressive, early-onset NSCLC in this population. 
 
-Integrating these assessments with the advanced capabilities of a hybrid HMM-LSTM model, 
-the study will enhance the precision in mapping the timing of mutational events and uncover complex patterns of NSCLC progression. 
+\vspace{1em}
+\noindent
 This multidisciplinary approach, which combines external exposure assessments with internal susceptibility factors, 
 is poised to provide novel mechanistic insights into the environmental carcinogenesis pathways 
 that contribute to the excessive lung cancer burden observed in Black communities. 
@@ -123,7 +134,6 @@ the research will forge a comprehensive model of how environmental toxins cataly
 amidst the backdrop of social and biological vulnerabilities in this underserved population. 
 We anticipate that this innovative approach will provide new insights into the role of air pollution in 
 the development of NSCLC among Black Americans. 
-This will help us develop targeted prevention, early detection, and treatment strategies.
+This will help us develop early detection strategies.
 This is increasingly vital as, despite overall declining lung cancer rates, 
-the incidence of NSCLC among women of color is rising in LA and similar urban areas. %cite?
-
+the incidence of NSCLC among women of color is rising in LA and similar urban areas.
