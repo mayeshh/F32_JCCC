@@ -17,24 +17,25 @@ This process is essential for ensuring the accuracy and reliability of subsequen
 Given the complexity and volume of genomic data, meticulous preprocessing is required to remove biases, correct errors, 
 and prepare the data for detailed mutation and evolutionary analysis. 
 
-\begin{figure}[h] % "htbp" here means "here, top, bottom, or on a float page", controlling where the figure is placed
+%\begin{figure}[h] % "htbp" here means "here, top, bottom, or on a float page", controlling where the figure is placed
+\begin{wrapfigure}{R}{4.05in}
   \centering
   \begin{mdframed}
-  \includegraphics[width=7.4in]{./Figures/data-processing.png}
+  \includegraphics[width=4.0in]{./Figures/data-processing.png}
   \caption{Standard pipeline for NGS analysis.
   STEP 1: Raw data (FASTQ) are aligned to the reference data (FASTA). Resulting alignments are stored in binary alignment map (BAM) file format. 
   STEP 2: Sequence variants are identified and annotated using tools such as GATK and ANNOVAR. Candidate genes are stored in various file formats, \textit{e.g.} .vcf, .BAM, .BED, .CFF.
-  STEP 3: Candidate genes with SNVs, InDels, and CNVs are analyzed and validated using tools such as ClusterProfile and GeneMANIA.
+  STEP 3: Candidate genes with SNVs, indels, and CNVs are analyzed and validated using tools such as ClusterProfile and GeneMANIA.
   }
   \label{data-processing}
   \end{mdframed}
-\end{figure}
+\end{wrapfigure}
 
 \vspace{1em}
 \noindent
 Whole genome sequencing (WGS) is a comprehensive method for analyzing the entire genomic DNA of an organism. 
 This technique allows for the identification of genetic variations, including single nucleotide variants (SNVs), 
-insertions and/or deletions (InDels), and structural variations across the entire genome. 
+insertions and/or deletions (indels), and structural variations across the entire genome. 
 Next-generation sequencing (NGS) refers to a collection of modern sequencing technologies that enable the rapid sequencing of large amounts of DNA. 
 These technologies have revolutionized genomic research by providing high-throughput, accurate, and cost-effective sequencing solutions.~\cite{koboldt_best_2020-1} 
 NGS allows for easy implementation of WGS, providing a powerful framework for uncovering the genetic underpinnings of diseases such as NSCLC.
@@ -42,7 +43,7 @@ NGS allows for easy implementation of WGS, providing a powerful framework for un
 \vspace{1em}
 \noindent
 Given the nature of genomic data, which often contains significant amounts of noise due to sequencing processes, 
-a series of rigorous data cleaning protocols is commonly implemented. 
+a series of rigorous data cleaning protocols is commonly implemented, (Fig.~\ref{data-processing}). 
 This includes removing low-quality sequences to prevent erroneous interpretations, 
 aligning the raw reads to a reference genome to identify the genomic coordinates of the sequences, 
 removing duplicate reads to avoid overrepresentation, and correcting sequencing errors to improve data accuracy. 
@@ -62,15 +63,27 @@ are due to biological variations rather than technical artifacts.
 
 \vspace{1em}
 \noindent
-The final preprocessing step involves the detection and classification of mutations. This step is crucial for understanding the genetic underpinnings of NSCLC and involves identifying single nucleotide variants (SNVs), which are point mutations that can significantly impact gene function, as well as detecting insertions and deletions (indels) that result in structural genomic changes. Additionally, it is essential to identify and analyze copy number variants (CNVs), which are large regions of the genome that have been duplicated or deleted. CNVs can have significant implications for gene expression and tumor progression. Using established bioinformatics pipelines to classify and annotate these genetic variations provides insights into their potential impact and relevance to cancer progression. By accurately detecting and classifying these mutations and CNVs, we can create a comprehensive genetic profile of NSCLC in Black Americans, which serves as a foundation for further evolutionary analyses \cite{gerstung_evolutionary_2020}.
+The final preprocessing step involves the detection and classification of mutations. 
+This step is crucial for understanding the genetic underpinnings of NSCLC and involves identifying SNVs 
+\textit{i.e.}, point mutations that can significantly impact gene function, 
+as well as identifying indels that result in structural genomic changes. 
+Additionally, it is essential to identify and analyze copy number variants (CNVs), 
+which are large regions of the genome that have been duplicated or deleted. 
+CNVs can have significant implications for gene expression and tumor progression. 
+Using established bioinformatics pipelines to classify and annotate these genetic variations 
+provides insights into their potential impact and relevance to cancer progression~\cite{koboldt_best_2020-1}. 
+By accurately detecting and classifying these mutations and CNVs, 
+we can create a comprehensive genetic profile of NSCLC in Black Americans, 
+which serves as a foundation for further evolutionary analyses.
 
-\vspace{1em}
-\noindent
-We anticipate several challenges in this aim, including high inter-individual variability in mutation rates and evolutionary patterns. 
-To address these challenges, we plan to incorporate a larger sample size to mitigate the impact of individual variability and provide more robust statistical power. 
-Employing advanced statistical techniques will help ensure that our findings are generalizable and reliable. 
-The computational demands of methods like GRITIC will be managed by leveraging high-performance computing resources, ensuring that analyses are conducted efficiently and accurately. 
-Additionally, using standardized data formats and developing custom scripts for data merging and analysis will facilitate the seamless integration of results from different computational methods (Gerstung et al., 2020).
+%\vspace{1em}
+%\noindent
+%We anticipate several challenges in this aim, 
+%including high inter-individual variability in mutation rates and evolutionary patterns. 
+%To address these challenges, we plan to incorporate a larger sample size to mitigate the impact of individual variability and provide more robust statistical power. 
+%Employing advanced statistical techniques will help ensure that our findings are generalizable and reliable. 
+%The computational demands of methods like GRITIC will be managed by leveraging high-performance computing resources, ensuring that analyses are conducted efficiently and accurately. 
+%Additionally, using standardized data formats and developing custom scripts for data merging and analysis will facilitate the seamless integration of results from different computational methods (Gerstung et al., 2020).
 
 \paragraph{Rationale}
 
@@ -79,7 +92,8 @@ a demographic often underrepresented in cancer research.
 This step is crucial for establishing a reliable baseline for subsequent analyses. 
 By implementing rigorous data cleaning and preprocessing protocols, we aim to remove low-quality sequences, 
 align the reads to the reference genome, and filter data for further analysis using \texttt{GRITIC}. 
-The resulting high-quality dataset will be essential for accurately mapping mutational signatures and evolutionary patterns specific to this population.
+The resulting high-quality dataset will be essential for accurately mapping mutational signatures 
+and evolutionary patterns specific to this population.
 
 %\begin{wrapfigure}{R}{2.05in}
 %  \begin{mdframed}
@@ -94,15 +108,30 @@ The resulting high-quality dataset will be essential for accurately mapping muta
 
 \paragraph{1.1. \SpecificAimOneA}
 
-This stage involves collaborating with regional medical centers and cancer research networks to collect extensive genomic data from NSCLC patients, particularly those of Black American descent. The data will undergo rigorous cleaning and preprocessing steps to remove biases and errors. This includes aligning sequences to reference genomes, removing duplicate reads, correcting sequencing errors, and accounting for mutations in healthy cells. We will implement stringent quality control measures to validate the data's integrity and completeness, ensuring it meets the analytical requirements of the computational methods to be applied. This step is expected to be time-consuming, given the complexity of preprocessing genomic data.
+In collaboration with Dr. Loretta Erhunmwunsee, we will collect extensive WGS data from Black Americans with NSCLC.
+The data will undergo common cleaning and preprocessing steps to remove biases and errors. 
+This includes aligning sequences to reference genomes, removing duplicate reads, correcting sequencing errors, 
+and accounting for mutations in healthy cells. 
+We will implement stringent quality control measures to validate the data's integrity and completeness, 
+ensuring it meets the analytical requirements of the computational methods to be applied. 
+This step is expected to be time-consuming, given the complexity of preprocessing genomic data, 
+however, we do not anticipate any challenges.
 
 \paragraph{1.2. \SpecificAimOneB}
 
-In this phase, we will normalize the dataset to account for batch effects and other technical variances. Normalization is crucial to ensure that the data is comparable across different samples and experiments. This involves adjusting for systematic biases that may arise during data collection and sequencing processes. We will employ robust statistical techniques to standardize the data, making it suitable for downstream analyses such as mutation detection and evolutionary trajectory modeling.
+In this phase, we will normalize the dataset to account for batch effects and other technical variances. 
+Normalization is crucial to ensure that the data is comparable across different samples and experiments. 
+This involves adjusting for systematic biases that may arise during data collection and sequencing processes. 
+We will employ well-established statistical techniques to standardize the data,~\cite{jaffe_practical_2015} 
+making it suitable for downstream analyses such as mutation detection and evolutionary trajectory modeling.
 
 \paragraph{1.3. \SpecificAimOneC}
 
-After normalizing the data, we will detect and classify mutations, including single nucleotide variants (SNVs), insertions, and deletions, using established bioinformatics pipelines. These pipelines will enable us to systematically identify and annotate genetic variations within the dataset. The accurate detection and classification of mutations are critical for subsequent evolutionary analyses, as they provide the foundation for understanding the genetic dynamics and progression of NSCLC in this population.
+After normalizing the data, we will detect and classify mutations, SNVs, indels, and CNVs using established bioinformatics pipelines.~\cite{koboldt_best_2020-1}
+These pipelines will enable us to systematically identify and annotate genetic variations within the dataset. 
+The accurate detection and classification of mutations are critical for subsequent evolutionary analyses, 
+as they provide the foundation for understanding the genetic dynamics and progression of NSCLC in this population, 
+and are required preprocessing steps for future analysis with \texttt{GRITIC} and tools from Gerstung \textit{et al.}
 
 %\begin{wrapfigure}{R}{4.05in}
 %  \begin{mdframed}
@@ -115,4 +144,10 @@ After normalizing the data, we will detect and classify mutations, including sin
 
 \paragraph{Challenges \& Alternative Approaches}
 
-We anticipate challenges such as high inter-individual variability in mutation rates and evolutionary patterns. To address this, we plan to incorporate a larger sample size and employ robust statistical methods to ensure the generalizability of our findings. The computational demands of the \texttt{GRITIC} method will be managed by leveraging high-performance computing resources and optimizing algorithm parameters to enhance computational efficiency without compromising accuracy. We will also ensure seamless integration of results from different computational methods by using standardized data formats and developing custom scripts for data merging and analysis.
+While we do not anticipate issues with these preprocessing steps, 
+we expect it to take a significant amount of time due to its non-trivial nature.
+The computational demands of analyzing large WGS data will be managed by leveraging high-performance computing (HPC) resources. 
+We will also ensure seamless integration of results from different computational methods by using standardized data formats 
+and developing custom scripts for data merging and analysis where needed. 
+
+

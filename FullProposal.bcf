@@ -1997,7 +1997,9 @@
     <bcf:citekey order="17">koboldt_best_2020-1</bcf:citekey>
     <bcf:citekey order="17">gerstung_evolutionary_2020</bcf:citekey>
     <bcf:citekey order="18">jaffe_practical_2015</bcf:citekey>
-    <bcf:citekey order="19">gerstung_evolutionary_2020</bcf:citekey>
+    <bcf:citekey order="19">koboldt_best_2020-1</bcf:citekey>
+    <bcf:citekey order="20">jaffe_practical_2015</bcf:citekey>
+    <bcf:citekey order="21">koboldt_best_2020-1</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
